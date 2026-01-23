@@ -55,7 +55,7 @@
 			],
 			"subclassSpells": [
 				"Dissonant Whispers",
-				"Mind Sliver|XGE",
+				"Mind Sliver|TCE",
 				"Pass without Trace",
 				"Nondetection",
 				"Phantasmal Killer",
@@ -306,7 +306,7 @@
 							"rows": [
 								[
 									"3rd",
-									"{@spell Dissonant Whispers}, {@spell Mind Sliver|XGE}, {@spell Pass without Trace}, {@spell Nondetection}"
+									"{@spell Dissonant Whispers}, {@spell Mind Sliver|TCE}, {@spell Pass without Trace}, {@spell Nondetection}"
 								],
 								[
 									"5th",
