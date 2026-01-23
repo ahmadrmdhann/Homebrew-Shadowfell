@@ -1,0 +1,3079 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "FotS",
+				"abbreviation": "FotS",
+				"full": "Fall of the Shadowfell",
+				"authors": [
+					"azazilieya",
+					"Sig",
+					"amaR"
+				],
+				"version": "1.3.1",
+				"url": "",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1716480000,
+		"dateLastModified": 1716560000
+	},
+	"subclass": [
+		{
+			"name": "Shadowborn",
+			"shortName": "Shadowborn",
+			"source": "FotS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"Shadowborn|Sorcerer|PHB|Shadowborn|FotS|3",
+				"Constitution of the Dark|Sorcerer|PHB|Shadowborn|FotS|6",
+				"Hounds of Omen|Sorcerer|PHB|Shadowborn|FotS|14",
+				"Umbral Form|Sorcerer|PHB|Shadowborn|FotS|18"
+			],
+			"subclassSpells": [
+				"Arms of Hadar",
+				"Toll the Dead|XGE",
+				"Blur",
+				"Bestow Curse",
+				"Shadow of Moil|XGE",
+				"Enervation|XGE",
+				"Circle of Death"
+			]
+		},
+		{
+			"name": "Shaded Soul",
+			"shortName": "Shaded Soul",
+			"source": "FotS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"Shaded Soul|Sorcerer|PHB|Shaded Soul|FotS|3",
+				"Cloak of Enveloping Shade|Sorcerer|PHB|Shaded Soul|FotS|6",
+				"Eclipse Dome|Sorcerer|PHB|Shaded Soul|FotS|14",
+				"Umbral Wave|Sorcerer|PHB|Shaded Soul|FotS|18"
+			],
+			"subclassSpells": [
+				"Dissonant Whispers",
+				"Mind Sliver|XGE",
+				"Pass without Trace",
+				"Nondetection",
+				"Phantasmal Killer",
+				"Mislead",
+				"Mental Prison|XGE"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Shadowborn",
+			"source": "FotS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Shadowborn",
+			"subclassSource": "FotS",
+			"level": 3,
+			"entries": [
+				"You are a creature of shadow, for your innate magic comes from the Shadowfell itself. You might trace your lineage to an entity from that place, or perhaps you were exposed to its fell energy and transformed by it.",
+				{
+					"type": "table",
+					"caption": "Shadowborn Sorcerer Quirks",
+					"colLabels": [
+						"d6",
+						"Quirk"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"You are always icy cold to the touch."
+						],
+						[
+							"2",
+							"You don't appear to breathe no matter how hard you're breathing (though you must still breathe to survive)."
+						],
+						[
+							"3",
+							"You barely bleed, even when badly injured."
+						],
+						[
+							"4",
+							"Your heart beats once per minute. This event sometimes surprises you."
+						],
+						[
+							"5",
+							"You have trouble remembering that living creatures and corpses should be treated differently."
+						],
+						[
+							"6",
+							"You blinked. Once. Last week."
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shadowborn Origin Spells",
+					"entries": [
+						{
+							"type": "table",
+							"caption": "Shadowborn Origin Spells",
+							"colLabels": [
+								"Sorcerer Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"3rd",
+									"{@spell Arms of Hadar}, {@spell Toll the Dead|XGE}, {@spell Blur}"
+								],
+								[
+									"5th",
+									"{@spell Bestow Curse}"
+								],
+								[
+									"7th",
+									"{@spell Shadow of Moil|XGE}"
+								],
+								[
+									"9th",
+									"{@spell Enervation|XGE}"
+								],
+								[
+									"11th",
+									"{@spell Circle of Death}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Born of Shadows",
+					"entries": [
+						"You can see normally in darkness or dim light out to 300 feet.",
+						"You can detect if anything might be made of or use shadow magic and have {@variantrule advantage|xphb} on ability checks, attack rolls, or saving throws against such things.",
+						"And you can see ethereal creatures and objects."
+					]
+				}
+			]
+		},
+		{
+			"name": "Constitution of the Dark",
+			"source": "FotS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Shadowborn",
+			"subclassSource": "FotS",
+			"level": 6,
+			"entries": [
+				"The magic that you command is shadow magic that's infused into your being directly from the Shadowfell, you can see through magical darkness.",
+				"And at 6th level, your hit point maximum can't be reduced.",
+				{
+					"type": "entries",
+					"name": "Shadow Walk",
+					"entries": [
+						"At 6th level, you gain resistance to necrotic damage, and the ability to step from one shadow into another.",
+						"When you are in dim light or darkness, as a {@variantrule bonus action|xphb}, you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness.",
+						"You are considered hidden and have {@variantrule advantage|xphb} on the first attack you make before the end of your next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Strength of Death",
+					"entries": [
+						"At 6th level, your existence in a twilight state between life and death has made you difficult to defeat.",
+						"When damage reduces you to 0 or lower hit points, you can make a Constitution saving throw ({@dc 5} + half the damage taken rounded down).",
+						"On a success, you instead drop to 1 hit point. You can't use this feature if you are reduced to 0 hit points or lower by radiant damage or by holy items.",
+						"You can use this feature a number of times equal to your Charisma Modifier. You regain 1 use of this feature when you finish a short rest, and all uses when you finish a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hounds of Omen",
+			"source": "FotS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Shadowborn",
+			"subclassSource": "FotS",
+			"level": 14,
+			"entries": [
+				"At 14th level, you gain the ability to call forth the howling dogs of the darkness to hunt your foes.",
+				"As a {@variantrule bonus action|xphb}, you can spend 4 sorcery points to summon 4 Shadow Mastiffs to target a number of creatures equal to your Charisma modifier that you can see within 120 feet of you.",
+				"The Shadow Mastiffs use their normal statblock ({@creature shadow mastiff}) with the following changes:",
+				{
+					"type": "list",
+					"items": [
+						"They appear with a number of temporary hit points equal to twice your sorcerer level.",
+						"They can move through other creatures and objects as if they were difficult terrain. A mastiff takes {@damage 1d4} force damage if it ends its turn inside an object.",
+						"At the start of its turn, the mastiff automatically knows its targets locations. If the targets were hidden, they're no longer hidden from you and the mastiffs.",
+						"The mastiffs appear in unoccupied spaces of your choice within 30 feet of its targets.",
+						"The mastiffs all take their turns after yours. On ones turn, it can move towards only one of its targets on its turn by the most direct route, and it can only use its actions or reactions to attack or dodge its target.",
+						"The mastiffs can make opportunity attacks, but only against its current target."
+					]
+				},
+				"Additionally, while the mastiffs are within 5 feet of any of their targets, the targets have {@variantrule disadvantage|xphb} on saving throws and attack rolls against you or any spells you cast.",
+				"A mastiff disappears if it's reduced to 0 hit points, if all of its targets are reduced to 0 hit points, or after 6 hours."
+			]
+		},
+		{
+			"name": "Umbral Form",
+			"source": "FotS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Shadowborn",
+			"subclassSource": "FotS",
+			"level": 18,
+			"entries": [
+				"At 18th level, you gain immunity to necrotic damage, and can take the Hide action in any amount of shadows when you do this you are considered heavily obscured.",
+				"As a {@variantrule bonus action|xphb} you can transform yourself into a shadowy form.",
+				"In this form, you have immunity to all damage except force and radiant damage, and you can move through other creatures and objects as if they were difficult terrain. You take {@damage 1d4} force damage if you end your turn inside an object. This form lasts for 10 minutes.",
+				"Alternatively, you can choose to remain in this form for 1 hour, but you can't use the Attack action, or cast a harmful spell.",
+				"It ends early if you are incapacitated, if you die, or if you dismiss it as a {@variantrule bonus action|xphb}.",
+				"Once you use this feature, you can't do so again until you finish a short or long rest, unless you spend 5 sorcery points to use it again."
+			]
+		},
+		{
+			"name": "Shaded Soul",
+			"source": "FotS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Shaded Soul",
+			"subclassSource": "FotS",
+			"level": 3,
+			"entries": [
+				"Your soul is shrouded by the shadows, warped by their overwhelming presence. Your power came from a fragment of magic imbued upon you by the griping plane of shadows. your mind should've been shattered like many others who encountered such powers. But your Will is stronger.",
+				{
+					"type": "table",
+					"caption": "Shaded Soul Sorcerer Quirks",
+					"colLabels": [
+						"d6",
+						"Quirk"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"Your skin is reflectively pale, and you don't seem to be able to tan."
+						],
+						[
+							"2",
+							"You can't seem to properly express emotions, instead the shadows warp and dance around you."
+						],
+						[
+							"3",
+							"You can't see peoples faces, only their skeletons."
+						],
+						[
+							"4",
+							"Your heart beats once per minute. This event sometimes surprises you."
+						],
+						[
+							"5",
+							"Your arms and legs are covered in unwavering, and unmoving shadows."
+						],
+						[
+							"6",
+							"You blinked. Once. Last week."
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shaded Soul Origin Spells",
+					"entries": [
+						{
+							"type": "table",
+							"caption": "Shaded Soul Origin Spells",
+							"colLabels": [
+								"Sorcerer Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"3rd",
+									"{@spell Dissonant Whispers}, {@spell Mind Sliver|XGE}, {@spell Pass without Trace}, {@spell Nondetection}"
+								],
+								[
+									"5th",
+									"{@spell Phantasmal Killer}"
+								],
+								[
+									"7th",
+									"{@spell Mislead}"
+								],
+								[
+									"9th",
+									"{@spell Mental Prison|XGE}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "A Shadow Beyond Sight",
+					"entries": [
+						"You can flicker from the vision of your foes as your magic ensnares them. When you hit a creature with a spell attack from a sorcerer spell, or it fails its saving throw against a sorcerer spell, you can mark it with dark magic.",
+						"Until the end of your next turn, you become {@condition invisible} to that creature as long as you aren't within 10 feet of it.",
+						"You can use this feature a number of times equal to your Charisma modifier, you regain all uses after a rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Eyes of the Dark",
+					"entries": [
+						"You can see normally in the dark and dim conditions with a range of 120 feet, and you can see through all magical darkness. Additionally you can expend 2 sorcery points to see through others magical darkness for 1 hour.",
+						"You learn the {@spell darkness} spell, which doesn't count against your number of sorcerer spells known. Which you can cast by spending 2 sorcery points."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cloak of Enveloping Shade",
+			"source": "FotS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Shaded Soul",
+			"subclassSource": "FotS",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain resistance to psychic damage, and you can spend 2 sorcery points as a {@variantrule bonus action|xphb} to dawn a protective cloak of dancing shadows for 5 minutes.",
+				"The protective force of the shadows increases your movement speed and jumps by 15 feet, and your AC increases by 3.",
+				"You can spend 2 sorcery points to extend the duration to 1 + half your Charisma modifier (rounded down) of hours.",
+				{
+					"type": "entries",
+					"name": "Shadow Walk",
+					"entries": [
+						"Also at 6th level, the ability to step from one shadow into another.",
+						"When you are in dim light or darkness, as a {@variantrule bonus action|xphb}, you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness.",
+						"You are considered hidden and have {@variantrule advantage|xphb} on the first attack you make before the end of the turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Eclipse Dome",
+			"source": "FotS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Shaded Soul",
+			"subclassSource": "FotS",
+			"level": 14,
+			"entries": [
+				"At 14th level, you gain the ability to weave the shadows around you like a shield or protective cover to support you and your allies.",
+				"As an action you can spend 4 sorcery points to summon and weave the shadows around you into a dome of magical darkness, you can select creatures that you can see within 60 feet of you.",
+				"You know the locations of all creatures within the dome, you also gain temporary hit points equal to twice your level while inside the dome.",
+				"Any non-selected creature that is inside the dome or goes inside of it has the following effects applied to it until it leaves the dome:",
+				{
+					"type": "list",
+					"items": [
+						"If the creature doesn't have darkvision it suffers the {@condition blinded} condition, if they have darkvision it's reduced to 5 feet.",
+						"All creatures have {@variantrule disadvantage|xphb} on all attack rolls and ability checks that requires sight.",
+						"Attack rolls against the creature have {@variantrule advantage|xphb}.",
+						"The creatures perspective of time is warped to feel like 1 minute equals 1 hour."
+					]
+				},
+				"You and any selected creatures can see perfectly fine in the dome and have {@variantrule advantage|xphb} on all rolls against any non-selected creature within the dome.",
+				"The dome lasts for 5 minutes, and the only way for a non-selected creature to avoid all of the listed effects is a source of magical light of 6th level or higher.",
+				"Once you use this action, you can't use it again until you finish a long rest, or you spend 6 sorcery points to use it again.",
+				"Creatures with {@sense blindsight}, {@sense tremorsense}, or {@sense truesight}, are unaffected by this dome."
+			]
+		},
+		{
+			"name": "Umbral Wave",
+			"source": "FotS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Shaded Soul",
+			"subclassSource": "FotS",
+			"level": 18,
+			"entries": [
+				"At 18th level, you gain immunity to psychic damage and can take the Hide action in any amount of shadows when you do this you are considered heavily obscured.",
+				"As an action you can spend 4 sorcery points to cause a wave of shadow magic to envelope creatures of your choice in shadows.",
+				"Creatures that are hit by this ability must make an Intelligence saving throw or be {@condition blinded} by light warping shadows.",
+				"On a failed save they become beacons of darkness blinding them for 2 rounds that you can use 5 feet of movement on your turn to teleport to, you're also granted {@variantrule advantage|xphb} on all attack rolls against these creatures.",
+				"On a success they're only {@condition blinded} until the end of the next creatures turn."
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Heart of the Eclipse",
+			"source": "FotS",
+			"featureType": [
+				"OV: Variant Class Feature"
+			],
+			"classSource": "PHB",
+			"className": "Sorcerer",
+			"level": 6,
+			"entries": [
+				"At 6th level, whenever you start casting a spell that deal necrotic or psychic damage, shadow magic erupts from you.",
+				"This eruption causes creatures of your choice that you can see within 15 feet of you to take necrotic or psychic damage (choose each time this ability activates) equal to half your sorcerer level"
+			]
+		},
+		{
+			"name": "Shade Form",
+			"source": "FotS",
+			"featureType": [
+				"OV: Variant Class Feature"
+			],
+			"classSource": "PHB",
+			"className": "Sorcerer",
+			"level": 6,
+			"entries": [
+				"At 6th level, when you are hit with an attack you may use your reaction to spend 3 sorcery points and momentarily turn into a shadow causing the attack, and any subsequent attacks, to miss you - passing through you as if you were not there.",
+				"This shade form lasts until the start of your next turn."
+			]
+		},
+		{
+			"name": "Weapon of Shade",
+			"source": "FotS",
+			"featureType": [
+				"OV: Variant Class Feature"
+			],
+			"classSource": "PHB",
+			"className": "Sorcerer",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain the ability to copy weapons that you've seen before.",
+				"As a {@variantrule bonus action|xphb}, you can spend 3 sorcery points to summon a +2 weapon of your choice for 10 minutes, you have proficiency in this weapon and it's considered magical, and uses your Charisma modifier instead of Strength or Dexterity for the weapons attack bonus.",
+				"The weapon is made of shadow magic and exclusively deals necrotic or psychic damage equal to the base weapons damage dice + half your sorcerer level.",
+				"The weapon has infinite ammunition if it requires it.",
+				"Additionally, you can attack twice, instead of once, whenever you take the Attack action using this weapon."
+			]
+		},
+		{
+			"name": "Grasp of the Eclipse",
+			"source": "FotS",
+			"featureType": [
+				"OV: Variant Class Feature"
+			],
+			"classSource": "PHB",
+			"className": "Sorcerer",
+			"level": 14,
+			"entries": [
+				"At 14th level, you gain the ability to weave shadows and increase their deathly nature.",
+				"As a {@variantrule bonus action|xphb}, you can spend 6 sorcery points to cover one of your arms in shadow for 6 minutes.",
+				"Anything that you touch with your arms suffers one of the following effects depending on it's living status:",
+				{
+					"type": "list",
+					"items": [
+						"Nonmagical items turn into dust within a circle of 4 feet.",
+						"A living creature suffers {@damage 6d8} necrotic/psychic damage and they can't heal until they take a long rest.",
+						"An undead creature suffers {@damage 4d10} necrotic/psychic damage and can't regenerate, and is {@condition paralyzed} for 2 rounds."
+					]
+				},
+				"To touch a creature with this ability you must make a melee spell attack."
+			]
+		},
+		{
+			"name": "Nevermore's Wings",
+			"source": "FotS",
+			"featureType": [
+				"OV: Variant Class Feature"
+			],
+			"classSource": "PHB",
+			"className": "Sorcerer",
+			"level": 14,
+			"entries": [
+				"At 14th level, you can use a {@variantrule bonus action|xphb} to weave shadows into raven like wings of light warping darkness upon your back.",
+				"While the wings are present, you have a flying speed of 60 feet.",
+				"The wings last for 1 hour, until if you are incapacitated, if you die, or if you dismiss it as a {@variantrule bonus action|xphb}.",
+				"If a creature makes contact with the wings they take {@damage 2d8} necrotic or psychic damage.",
+				"While in this form you deal additional psychic/necrotic damage equal to your sorcerer level to creatures that you attack."
+			]
+		},
+		{
+			"name": "Umbral Mist",
+			"source": "FotS",
+			"featureType": [
+				"OV: Variant Class Feature"
+			],
+			"classSource": "PHB",
+			"className": "Sorcerer",
+			"level": 18,
+			"entries": [
+				"At 18th level, you become immune to necrotic/psychic damage and can take the Hide action in any amount of shadows when you do this you are considered heavily obscured.",
+				"You can spend 8 sorcery points as a {@variantrule bonus action|xphb} to cause weaving silent shadows to explode from you and cover the ground with a misty darkness of weaving shadows within 500 feet of you, the duration of the mist is 10 rounds or until dispelled.",
+				"Any creature considered an ally is unaffected by this strange mist.",
+				"Any creature considered an enemy must make an Constitution/Intelligence saving throw at the beginning of its turn or suffer {@damage 4d10} psychic damage (immunity and resistance are ignored), and have their movement speed reduced by 10 feet if they fail If a creatures movement is reduced to 0 by this ability they die, any creature that dies in the mist extends the abilities duration by 1 round.",
+				"You can teleport through the darkness as if it were movement, and you have {@variantrule advantage|xphb} on all attack rolls, skill checks, and saving throws while in the mist."
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Miner's Tools",
+			"source": "FotS",
+			"type": "T",
+			"rarity": "none",
+			"weight": 10,
+			"value": 1000,
+			"entries": [
+				"Miner's Tools include a heavy pick, a shovel, a hammer, chisels, and a stiff brush used to excavate earth and identify ore.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability",
+							"entry": "Strength or Wisdom"
+						},
+						{
+							"type": "item",
+							"name": "Utilize",
+							"entry": "Chip off a stone sample (DC 10), Determine tunnel stability (DC 15), Extract a gem or crystal intact (DC 15), Create a small defensive earthwork (DC 15)."
+						}
+					]
+				},
+				"If you have proficiency with a tool, add your {@table Proficiency Bonus|XPHB} to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have {@variantrule Advantage|XPHB} on the check too."
+			]
+		}
+	],
+	"background": [
+		{
+			"name": "Shadow Miner",
+			"source": "FotS",
+			"page": 10,
+			"edition": "one",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"con",
+								"wis"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"con",
+								"wis"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"feats": [
+				{
+					"deep delver|fots": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true,
+					"perception": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"miner's tools": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"A": [
+						"miner's pick|PHB",
+						"shovel|xphb",
+						"dungeoneer's pack|xphb",
+						"traveler's clothes|xphb",
+						{
+							"value": 1000
+						}
+					],
+					"B": [
+						{
+							"value": 5000
+						}
+					]
+				}
+			],
+			"entries": [
+				"You have toiled in the sunless depths where the veil between the Material Plane and the Shadowfell is dangerously thin. Your hands are callous and stained with coal and dark crystal dust, and your lungs have grown accustomed to air that tastes of stale magic. While others fear the dark, you have learned to navigate it.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "Strength, Constitution, Wisdom"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Deep Delver|FotS}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Athletics|XPHB} and {@skill Perception|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Miner's Tools|FotS}"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "Choose A or B: (A) {@item Miner's Pick|PHB}, {@item Shovel|XPHB}, {@item Dungeoneer's Pack|XPHB}, {@item Traveler's Clothes|XPHB}, 10 GP; or (B) 50 GP"
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Corrupted Bureaucrat",
+			"source": "FotS",
+			"page": 11,
+			"edition": "one",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"int",
+								"cha",
+								"wis"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"int",
+								"cha",
+								"wis"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"feats": [
+				{
+					"forger's insight|fots": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"deception": true,
+					"history": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"calligrapher's supplies": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"A": [
+						"calligrapher's supplies|xphb",
+						"fine clothes|xphb",
+						{
+							"item": "ink|xphb",
+							"displayName": "Ink (1 ounce bottle)"
+						},
+						"ink pen|xphb",
+						"paper|xphb",
+						"map or scroll case|xphb",
+						{
+							"value": 2000
+						}
+					],
+					"B": [
+						{
+							"value": 5000
+						}
+					]
+				}
+			],
+			"entries": [
+				"The machinery of the kingdom runs on ink, stamps, and the occasional silenced witness. You were once a cog in this corrupt engine, falsifying reports to cover up the horrors of the mines. Whether you fled due to guilt or became a liability, you carry the secrets of the state.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "Intelligence, Charisma, Wisdom"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Forger's Insight|FotS}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Deception|XPHB} and {@skill History|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Calligrapher's Supplies|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "Choose A or B: (A) {@item Calligrapher's Supplies|XPHB}, {@item Fine Clothes|XPHB}, {@item Ink|XPHB}, {@item Ink Pen|XPHB}, {@item Paper|XPHB}, {@item Map or Scroll Case|XPHB}, 20 GP; or (B) 50 GP"
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Iron Law Enforcer",
+			"source": "FotS",
+			"page": 12,
+			"edition": "one",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"cha",
+								"int"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"cha",
+								"int"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"feats": [
+				{
+					"badge of authority|fots": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"intimidation": true,
+					"insight": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"playing cards": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"A": [
+						"manacles|xphb",
+						"healer's kit|xphb",
+						"signal whistle|xphb",
+						"traveler's clothes|xphb",
+						"bullseye lantern|xphb",
+						"oil|xphb",
+						{
+							"value": 1000
+						}
+					],
+					"B": [
+						{
+							"value": 5000
+						}
+					]
+				}
+			],
+			"entries": [
+				"You wore the badge of the crown, sworn to uphold order in a kingdom sliding into chaos. Now, disillusioned by the corruption you served, you walk a fine line between the lawman you were trained to be and the vigilante the world needs.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "Strength, Charisma, Intelligence"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Badge of Authority|FotS}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Intimidation|XPHB} and {@skill Insight|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Playing Cards|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "Choose A or B: (A) {@item Manacles|XPHB}, {@item Healer's Kit|XPHB}, {@item Signal Whistle|XPHB}, {@item Traveler's Clothes|XPHB}, {@item Bullseye Lantern|XPHB}, {@item Oil|XPHB}, 10 GP; or (B) 50 GP"
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Shadowfell Researcher",
+			"source": "FotS",
+			"page": 13,
+			"edition": "one",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"int",
+								"wis",
+								"con"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"int",
+								"wis",
+								"con"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"feats": [
+				{
+					"shadow scholar|fots": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"arcana": true,
+					"nature": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"alchemist's supplies": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"A": [
+						"alchemist's supplies|xphb",
+						"scholar's pack|xphb",
+						"robe|xphb",
+						{
+							"value": 1500
+						}
+					],
+					"B": [
+						{
+							"value": 5000
+						}
+					]
+				}
+			],
+			"entries": [
+				"Where others see terrifying monsters and creeping gloom, you see a fascinating ecosystem waiting to be cataloged. You have dedicated your life to studying the bleed of the Shadowfell, risking your sanity to understand the metaphysics of darkness.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "Intelligence, Wisdom, Constitution"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Shadow Scholar|FotS}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Arcana|XPHB} and {@skill Nature|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Alchemist's Supplies|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "Choose A or B: (A) {@item Alchemist's Supplies|XPHB}, {@item Scholar's Pack|XPHB}, {@item Robe|XPHB}, 15 GP; or (B) 50 GP"
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Street Revolutionary",
+			"source": "FotS",
+			"page": 14,
+			"edition": "one",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"dex",
+								"cha",
+								"con"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"dex",
+								"cha",
+								"con"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"feats": [
+				{
+					"urban guerrilla|fots": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"persuasion": true,
+					"stealth": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"thieves' tools": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"A": [
+						"thieves' tools|xphb",
+						"crowbar|xphb",
+						"burglar's pack|xphb",
+						"traveler's clothes|xphb",
+						{
+							"value": 500
+						}
+					],
+					"B": [
+						{
+							"value": 5000
+						}
+					]
+				}
+			],
+			"entries": [
+				"Born in the gutters under the shadow of tyrannical spires, you are the voice of the voiceless. Whether organizing strikes, spreading propaganda, or sabotaging supply lines, you fight for a dawn that seems impossible to reach.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "Dexterity, Charisma, Constitution"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Urban Guerrilla|FotS}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Persuasion|XPHB} and {@skill Stealth|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Thieves' Tools|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "Choose A or B: (A) {@item Thieves' Tools|XPHB}, {@item Crowbar|XPHB}, {@item Burglar's Pack|XPHB}, {@item Traveler's Clothes|XPHB}, 5 GP; or (B) 50 GP"
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Crime Syndicate Operative",
+			"source": "FotS",
+			"page": 15,
+			"edition": "one",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"dex",
+								"cha",
+								"int"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"dex",
+								"cha",
+								"int"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"feats": [
+				{
+					"black market contacts|fots": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"sleight of hand": true,
+					"deception": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"disguise kit": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"A": [
+						"disguise kit|xphb",
+						"dice set|xphb",
+						"fine clothes|xphb",
+						"dagger|xphb",
+						{
+							"value": 1500
+						}
+					],
+					"B": [
+						{
+							"value": 5000
+						}
+					]
+				}
+			],
+			"entries": [
+				"In a crumbling kingdom, morality is a luxury you cannot afford. You operate in the gray markets, dealing in illicit goods. You understand the value of everything and know exactly whose palms to grease to get what you want.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "Dexterity, Charisma, Intelligence"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Black Market Contacts|FotS}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Sleight of Hand|XPHB} and {@skill Deception|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Disguise Kit|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "Choose A or B: (A) {@item Disguise Kit|XPHB}, {@item Dice Set|XPHB}, {@item Fine Clothes|XPHB}, {@item Dagger|XPHB}, 15 GP; or (B) 50 GP"
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Exiled Noble",
+			"source": "FotS",
+			"page": 16,
+			"edition": "one",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"cha",
+								"int",
+								"dex"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"cha",
+								"int",
+								"dex"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"feats": [
+				{
+					"noble presence|fots": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"history": true,
+					"persuasion": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"dragonchess set": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"A": [
+						"dragonchess set|xphb",
+						"fine clothes|xphb",
+						"signet ring|phb",
+						"perfume|xphb",
+						"steel mirror|phb",
+						{
+							"value": 2500
+						}
+					],
+					"B": [
+						{
+							"value": 5000
+						}
+					]
+				}
+			],
+			"entries": [
+				"Your name was once spoken with reverence, but now it is whispered as a cautionary tale. Cast out for political failure, you retain your education and bearing. You carry the weight of a fallen house, seeking to reclaim your honor.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "Charisma, Intelligence, Dexterity"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Noble Presence|FotS}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill History|XPHB} and {@skill Persuasion|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Dragonchess Set|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "Choose A or B: (A) {@item Dragonchess Set|XPHB}, {@item Fine Clothes|XPHB}, {@item Signet Ring|PHB}, {@item Perfume|XPHB}, {@item Steel Mirror|PHB}, 25 GP; or (B) 50 GP"
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Cloaked Informant",
+			"source": "FotS",
+			"page": 17,
+			"edition": "one",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"dex",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"dex",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"feats": [
+				{
+					"face dancer|fots": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"insight": true,
+					"stealth": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"forgery kit": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"A": [
+						"forgery kit|xphb",
+						"hooded lantern|xphb",
+						"oil|xphb",
+						"traveler's clothes|xphb",
+						"chalk (1 piece)|phb",
+						{
+							"value": 1500
+						}
+					],
+					"B": [
+						{
+							"value": 5000
+						}
+					]
+				}
+			],
+			"entries": [
+				"Identity is fluid, and truth is a commodity. You are a master of blending in. You have sold secrets to both the crown and the resistance, surviving by making yourself indispensable—and invisible.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "Dexterity, Wisdom, Charisma"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Face Dancer|FotS}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Insight|XPHB} and {@skill Stealth|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Forgery Kit|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "Choose A or B: (A) {@item Forgery Kit|XPHB}, {@item Hooded Lantern|XPHB}, {@item Oil|XPHB}, {@item Traveler's Clothes|XPHB}, {@item Chalk (1 piece)|PHB}, 15 GP; or (B) 50 GP"
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Fallen Knight",
+			"source": "FotS",
+			"page": 18,
+			"edition": "one",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"con",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"con",
+								"cha"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"feats": [
+				{
+					"oathbreaker's strike|fots": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true,
+					"intimidation": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"smith's tools": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"A": [
+						"smith's tools|xphb",
+						"whetstone|phb",
+						"traveler's clothes|xphb",
+						"explorer's pack|xphb",
+						"holy symbol|xphb",
+						{
+							"value": 1000
+						}
+					],
+					"B": [
+						{
+							"value": 5000
+						}
+					]
+				}
+			],
+			"entries": [
+				"You swore oaths to protect the weak, but the Shadowfell's encroachment shattered those ideals. Having forsaken your title, you are now a warrior without a master, a blade seeking a new purpose in a dying world.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "Strength, Constitution, Charisma"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Oathbreaker's Strike|FotS}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Athletics|XPHB} and {@skill Intimidation|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Smith's Tools|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "Choose A or B: (A) {@item Smith's Tools|XPHB}, {@item Whetstone|PHB}, {@item Traveler's Clothes|XPHB}, {@item Explorer's Pack|XPHB}, {@item Holy Symbol|XPHB}, 10 GP; or (B) 50 GP"
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Shadow-Touched Orphan",
+			"source": "FotS",
+			"page": 19,
+			"edition": "one",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"con",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"con",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"feats": [
+				{
+					"child of the gloom|fots": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"survival": true,
+					"arcana": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"herbalism kit": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"A": [
+						"herbalism kit|xphb",
+						"quarterstaff|xphb",
+						"common clothes|phb",
+						"blanket|xphb",
+						"tinderbox|xphb",
+						{
+							"value": 1000
+						}
+					],
+					"B": [
+						{
+							"value": 5000
+						}
+					]
+				}
+			],
+			"entries": [
+				"The Shadowfell did not just touch your life; it seeped into your blood. Raised in the proximity of dark rifts, you possess an innate connection to the gloom. Normal society shuns you, but you find comfort in the dark places.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "Constitution, Wisdom, Charisma"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Child of the Gloom|FotS}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Survival|XPHB} and {@skill Arcana|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Herbalism Kit|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "Choose A or B: (A) {@item Herbalism Kit|XPHB}, {@item Quarterstaff|XPHB}, {@item Common Clothes|PHB}, {@item Blanket|XPHB}, {@item Tinderbox|XPHB}, 10 GP; or (B) 50 GP"
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		}
+	],
+	"feat": [
+		{
+			"name": "Deep Delver",
+			"source": "FotS",
+			"category": "O",
+			"entries": [
+				"You have adapted to the crushing dark of the mines. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You gain {@sense darkvision} out to a range of 60 feet. If you already have darkvision, its range increases by 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Subterranean Survival",
+					"entries": [
+						"You have {@variantrule advantage|XPHB} on {@skill Wisdom} ({@skill Survival}) checks made while underground or in the Shadowfell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tremorsense",
+					"entries": [
+						"As a {@variantrule Bonus Action|XPHB}, you can gain {@sense tremorsense} with a range of 10 feet until the start of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Forger's Insight",
+			"source": "FotS",
+			"category": "O",
+			"toolProficiencies": [
+				{
+					"forgery kit": true
+				}
+			],
+			"entries": [
+				"Your experience with bureaucracy allows you to manipulate official records. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Tool Proficiency",
+					"entries": [
+						"You gain proficiency with the {@item forgery kit|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mimicry",
+					"entries": [
+						"If you spend at least 1 minute observing a creature's handwriting, you can mimic it perfectly."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bureaucratic Deception",
+					"entries": [
+						"When you make a {@skill Deception} check involving written documents or bureaucratic procedures, you can use your {@skill Intelligence} modifier instead of your {@skill Charisma} modifier."
+					]
+				}
+			]
+		},
+		{
+			"name": "Badge of Authority",
+			"source": "FotS",
+			"category": "O",
+			"additionalSpells": [
+				{
+					"name": "Command",
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									"command"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You still carry the aura of the law, however tarnished. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Commanding Voice",
+					"entries": [
+						"You learn the {@spell Command} spell. You can cast it once without expending a spell slot, and you regain the ability to do so when you finish a {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Intimidating Presence",
+					"entries": [
+						"You have {@variantrule advantage|XPHB} on {@skill Intimidation} checks directed at commoners or low-ranking soldiers affiliated with the kingdom."
+					]
+				}
+			]
+		},
+		{
+			"name": "Shadow Scholar",
+			"source": "FotS",
+			"category": "O",
+			"additionalSpells": [
+				{
+					"name": "Shadow Magic",
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									"detect magic"
+								]
+							}
+						}
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Wizard|school=N;I",
+								"count": 1
+							}
+						]
+					},
+					"ability": {
+						"choose": [
+							"int"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Your research into forbidden lore grants you minor magical abilities. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Cantrip",
+					"entries": [
+						"You learn one cantrip of your choice from the {@filter Wizard spell list|spells|class=Wizard|school=N;I}. {@skill Intelligence} is your spellcasting ability for it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Detect Shadow",
+					"entries": [
+						"You can cast {@spell Detect Magic} once without expending a spell slot. When cast this way, the spell specifically highlights auras originating from the Shadowfell with a deep purple hue. You regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Urban Guerrilla",
+			"source": "FotS",
+			"category": "O",
+			"entries": [
+				"You are adept at fighting and moving within the city's underbelly. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Street Movement",
+					"entries": [
+						"Moving through nonmagical difficult terrain costs you no extra movement if you are in an urban environment (such as sewers, alleys, or ruins)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Defiant Spirit",
+					"entries": [
+						"When you fail a saving throw against being {@condition charmed} or {@condition frightened}, you can use your reaction to reroll the save. You must use the new roll. You can use this feature once per {@variantrule Long Rest|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Black Market Contacts",
+			"source": "FotS",
+			"category": "O",
+			"entries": [
+				"You know how to navigate the criminal underworld. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Thieves' Cant",
+					"entries": [
+						"You learn {@language Thieves' Cant}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Underworld Dealings",
+					"entries": [
+						"While in a city or settlement, you can find fences willing to buy stolen non-magical goods at full value, or merchants willing to sell poisons and potions at a 20 percent discount."
+					]
+				}
+			]
+		},
+		{
+			"name": "Noble Presence",
+			"source": "FotS",
+			"category": "O",
+			"additionalSpells": [
+				{
+					"name": "Heroism",
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									"heroism"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"Your upbringing demands respect, inspiring those around you. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Inspiring Magic",
+					"entries": [
+						"You learn the {@spell Heroism} spell. You can cast it once without expending a spell slot, and you regain the ability to do so when you finish a {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Social Influence",
+					"entries": [
+						"You have a pool of 3 social points. When you make a {@skill Persuasion} check, you can spend 1 social point to gain {@variantrule advantage|XPHB} on the roll. You regain all expended points when you finish a {@variantrule Long Rest|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Face Dancer",
+			"source": "FotS",
+			"category": "O",
+			"additionalSpells": [
+				{
+					"name": "Disguise Self",
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									"disguise self"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You are a master of disguise and infiltration. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Master of Disguise",
+					"entries": [
+						"You can cast {@spell Disguise Self} once without expending a spell slot. You regain the ability to do so when you finish a {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unreadable",
+					"entries": [
+						"Creatures have {@variantrule disadvantage|XPHB} on {@skill Insight} checks made to determine your true identity or intentions while you are disguised."
+					]
+				}
+			]
+		},
+		{
+			"name": "Oathbreaker's Strike",
+			"source": "FotS",
+			"category": "O",
+			"armorProficiencies": [
+				{
+					"heavy": true
+				}
+			],
+			"entries": [
+				"You channel the pain of your broken vows into your strikes. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Heavy Armor Proficiency",
+					"entries": [
+						"You gain proficiency with Heavy Armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Necrotic Strike",
+					"entries": [
+						"Once per turn, when you hit a creature with a melee weapon attack, you can deal an extra {@damage 1d4} necrotic damage to the target."
+					]
+				}
+			]
+		},
+		{
+			"name": "Child of the Gloom",
+			"source": "FotS",
+			"category": "O",
+			"additionalSpells": [
+				{
+					"name": "Thaumaturgy",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Cleric|school=T",
+								"count": 1
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"The shadow energy infused in your blood protects you. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Shadow Resilience",
+					"entries": [
+						"You have resistance to necrotic damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gloom Thaumaturgy",
+					"entries": [
+						"You learn the {@spell Thaumaturgy} cantrip. When you cast it, the sensory effects manifest as shadowy distortions (e.g., dimming lights, whispered echoes)."
+					]
+				}
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Grasp of Shadows",
+			"source": "FotS",
+			"page": 4,
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Dancing shadows spring from your hand to deliver cold necrotic energy to a creature you try to touch.",
+				"Make a melee spell attack against the target. You have {@variantrule advantage|xphb} on the attack roll if the target is considered living or wearing clothes that produce extra shadows on its body.",
+				"On a hit, the target take {@damage 1d8} necrotic damage, and it can't heal for {@dice 1d4} rounds.",
+				"This spell's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+			],
+			"scaling": {
+				"mode": "cantrip",
+				"formula": "1d8"
+			}
+		},
+		{
+			"name": "Shade Bolt",
+			"source": "FotS",
+			"page": 4,
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You flick a mote of dancing shadows at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target take {@damage 1d10} necrotic damage.",
+				"Small nonmagical objects like buttons or rags hit by the this spell turn into dust if it isn't being worn or carried.",
+				"This spell's damage increases by {@dice 1d10} when you reach 5th level ({@damage 2d10}), 11th level ({@damage 3d10}), and 17th level ({@damage 4d10})."
+			],
+			"scaling": {
+				"mode": "cantrip",
+				"formula": "1d10"
+			}
+		},
+		{
+			"name": "Shadow Burst",
+			"source": "FotS",
+			"page": 4,
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You create a momentary circle of dancing shadows that dance and weave around you.",
+				"Each creature within range, other than you, must succeed on Constitution saving throw or take {@damage 1d12} necrotic damage, and can't heal for {@dice 1d4} rounds.",
+				"This spell's damage increases by {@dice 1d12} when you reach 5th level ({@damage 2d12}), 11th level ({@damage 3d12}), and 17th level ({@damage 4d12})."
+			],
+			"scaling": {
+				"mode": "cantrip",
+				"formula": "1d12"
+			}
+		},
+		{
+			"name": "Ray of Shade",
+			"source": "FotS",
+			"page": 5,
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"A jet black beam of light warping shadow streaks towards a creature within range.",
+				"Make a ranged spell attack against the target. On a hit, it takes {@damage 1d8} necrotic damage, and its maximum health is reduced by 5 until the start of your next turn.",
+				"This spell's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+			],
+			"scaling": {
+				"mode": "cantrip",
+				"formula": "1d8"
+			}
+		},
+		{
+			"name": "Darts of Shade",
+			"source": "FotS",
+			"page": 5,
+			"level": 1,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You create three shadowy darts of shadow magic. Each dart hits a creature of your choice that you can see within range.",
+				"A dart deals {@damage 1d4} necrotic damage and prevents healing for {@dice 1d4} round to its target.",
+				"The darts all strike simultaneously, and you can direct them to hit one creature or multiple."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st."
+					]
+				}
+			]
+		},
+		{
+			"name": "Grasping Shadow Bolt",
+			"source": "FotS",
+			"page": 5,
+			"level": 1,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a twig that has been decorated with raven feathers"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 2
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"A beam of silent, dark energy lances out towards a creature within range, forming a sustained arc of shadow between you and the target.",
+				"Make a ranged spell attack against that creature. On a hit, the target takes {@damage 2d6} necrotic damage, and on each of your turns for the duration, you can use your action to deal {@damage 2d12} damage to the target automatically.",
+				"The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has a total cover from you."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by {@dice 1d12} for each slot level above 1st."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pillar of Ill Omen",
+			"source": "FotS",
+			"page": 6,
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "Several raven feathers and a piece of shadow magic infused feldspar"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"A jet black beam of light absorbing darkness shoots down in a 5-foot-radius, 40-foot-high cylinder centered on a point within range. Until the spell ends, darkness fills the cylinder with the dim condition within 5 feet of the cylinder.",
+				"When a creature enters the spell's area for the first time on a turn or starts its turn there, it is engulfed in magical light absorbing darkness that causes tearing pain, and it must make a Constitution saving throw.",
+				"It takes {@damage 2d10} necrotic damage on a failed saving throw, or half as much damage on a successful one.",
+				"A living creature makes its saving throw with {@variantrule disadvantage|xphb}. If it fails, its maximum hit points are reduced by {@dice 2d6} and can't heal until it leaves the spells darkness, it's maximum hit points are returned after 1 round after leaving the darkness."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d10} for each slot level above 2nd."
+					]
+				}
+			]
+		},
+		{
+			"name": "Shadow Binds",
+			"source": "FotS",
+			"page": 6,
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 300
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Choose one creature you can see within range of a 300-foot-sphere.",
+				"Dark strips of magical shadows loop around the creature. The target must succeed on a Charisma saving throw, or its movement speed of any kind is reduced to 0 feet for the spell's duration.",
+				"An airborne creature affected by this spell takes no fall damage when it's pulled to the ground."
+			]
+		},
+		{
+			"name": "Umbral Step",
+			"source": "FotS",
+			"page": 6,
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You teleport yourself to an unoccupied space you can see within range.",
+				"Immediately after you disappear, a deathly silence follows and a patch of darkness is left, and each creature within 10 feet of the space you left must make a Constitution saving throw, taking {@damage 3d10} necrotic damage on a failed save, or half as much damage on a successful one. The silence spreads up to 300 feet away.",
+				"You can bring along objects as long as their weight doesn't exceed what you can carry. You can also teleport one willing creature of your size or smaller who is carrying gear up to its carrying capacity.",
+				"The creature must be within 5 feet of you when you cast this spell, and there must be an unoccupied space within 5 feet of your destination space for the creature to appear in; otherwise, the creature is left behind."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d10} for each slot level above 3rd."
+					]
+				}
+			]
+		},
+		{
+			"name": "Umbral Orb",
+			"source": "FotS",
+			"page": 6,
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 150
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "10 large raven feathers and 10 petals of deadly nightshade"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"A dark streak of shadows fly from your pointing fingers to a point you choose within range and then blossoms with a silent explosion of dancing shadows.",
+				"Each creature in a 20-foot-radius sphere centered on that point, must make a Constitution saving throw.",
+				"A target take {@damage 4d12} necrotic on a failed save, or half as much on a successful one.",
+				"The deathly energy spreads around corners. It put out flames disintegrates any objects that aren't being worn or carried."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the necrotic damage increases by {@dice 1d12} for each spell slot levels above 3rd."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blade of the Raven Queen's Servant",
+			"source": "FotS",
+			"page": 7,
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "5 raven feathers and a small black diamond which are consumed by the spell"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You conjure the symbol of death in your free hand.",
+				"The scythe is weightless and has a reach of 10 feet it also counts as magical and uses your spell attack bonus with a +3 bonus to attack and damage rolls made with the scythe.",
+				"If you let go or drop the scythe it stands straight up from the ground, you can call the blade back to your hand as a {@variantrule bonus action|xphb}.",
+				"Any creature that touches it that is not you takes {@damage 4d12} necrotic damage and cannot move it from its place no matter what they do.",
+				"You can use your action to make a melee spell attack with the deathly blade. On a hit, the target takes {@damage 4d10} necrotic damage.",
+				"As an action the scythe can shed the dark condition in a 30 foot radius and the dim condition for an additional 30 feet. You can dispel the darkness with a {@variantrule bonus action|xphb}."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the attack damage increases by {@dice 1d10} and the grabbed damage increases by {@dice 1d12} for every spell slot levels above 4th. The spells duration is also extended by 2 minutes for every spell slot level above 4th level"
+					]
+				}
+			]
+		},
+		{
+			"name": "Aura of Shade",
+			"source": "FotS",
+			"page": 7,
+			"level": 5,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A diamond worth 150gp infused with shadow magic"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 5
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You envelop yourself in a dark aura of shadow magic.",
+				"Living creatures that step inside the aura or start their turn there take {@damage 10d6} necrotic damage, and take one level of exhaustion as well as they can't be healed until they take a long rest.",
+				"Undead creatures that step into the aura must make a Constitution saving throw or have their maximum hit points reduced by {@dice 6d6}.",
+				"And any creature that's not a Construct that has been exposed to the spell, cannot recover hit points for 10 rounds."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When this spell is cast using a spell slot of 6th level or higher, increase the damage by {@dice 2d6} per spell slot and increase the duration by six seconds per spell slot."
+					]
+				}
+			]
+		},
+		{
+			"name": "Investiture of Darkness",
+			"source": "FotS",
+			"page": 7,
+			"level": 6,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Weaving Shadows race across you body, shedding darkness in a 30-foot radius and the dim conditions for an additional 30 feet for the spell's duration. The shadows don't harm you. Until the spell ends, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You are immune to necrotic damage and have resistance to radiant damage.",
+						"At the start of each of your turns you have {@variantrule advantage|xphb} on attack rolls, and enemies have {@variantrule disadvantage|xphb} on attack rolls against you.",
+						"Any creature that moves within 5 feet of you for the first time on a turn or ends its turn there takes {@damage 1d8} of necrotic damage."
+					]
+				},
+				"You can use your action to create a line of weaving shadows 15 feet long and 5 feet wide extending from you in a direction you choose. Each creature in the line must make a Constitution saving throw. A creature takes {@damage 4d8} necrotic damage on a failed save, or half as much damage on a successful one."
+			]
+		},
+		{
+			"name": "Decay",
+			"source": "FotS",
+			"page": 7,
+			"level": 7,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A prayer wheel and water from the Shadowfell"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Shadows wreathe around your hand wanting to grip to the living.",
+				"You touch a creature and the shadows that you wore on your hand begin to wreathe around a creature coating them in wreathing shadows.",
+				"The target takes {@damage 14d8+15} necrotic damage. For the Duration of the spell, the target takes 20 necrotic damage at the start of each of its turns (100 damage necrotic damage each minute)",
+				"A targets limbs (finger, leg, tail, and so on) that is touched by this spell, falls off and turns to dust."
+			]
+		},
+		{
+			"name": "Dread Spear",
+			"source": "FotS",
+			"page": 8,
+			"level": 8,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self",
+					"amount": 500,
+					"typePath": "line"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You manifest and form the shear fear of the darkness into the rough shape of a spear, just barely containing its conceptual shape, and unleash the dread power in a throw forming a 500 feet long and 40 feet wide streak of darkness.",
+				"Each creature must make an Intelligence saving throw. A creature takes {@damage 8d12} psychic and {@damage 8d6} piercing damage on a failed save, or half as much psychic damage and no piercing damage on a successful one.",
+				"The spear ignores all cover and leaves magical darkness in its wake for {@dice 1d10} years, and deals {@damage 1d8} psychic damage to all creatures who enter or start their turn in the darkness."
+			]
+		},
+		{
+			"name": "World of Darkness",
+			"source": "FotS",
+			"page": 8,
+			"level": 9,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "mile",
+					"amount": 50
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Payment: As payment for casting this spell, you lose {@dice 3d100} years of your lifespan physically aging for that many years, and can never cast this spell again, even if you reincarnate into a new life. If the years lost of your lifespan would kill you, you turn to dust and cannot be revived by any means.",
+				"You envelope the sun in an all consuming darkness, plunging the world around you into an eternal darkness. All natural light in a 50-mile-radius starting from the point at where you cast the spell is snuffed out, and the sun is enveloped in a shadow dripping eclipse.",
+				"All creatures that aren't you, inside any area of darkness inside of the spell without a source of light, begin to take {@damage 1d12} necrotic or psychic damage (choose upon casting this spell) every minute.",
+				"If a beast, humanoid, monstrosity, or undead, dies within the area of darkness with no light shown on their corpse. They are turned into an undead that must make a Wisdom saving throw upon being raised, or be forced to serve your will for the remainder of the spell. They can use all of the abilities and have all of the memmories that they had in life.",
+				"If they succeed on the Wisdom saving throw upon being raised or have an effect on them that prevent mind control, telepathy, or detection from magic, they are immune to the effects of the spell and are now wayward undead with free will.",
+				"If a humanoid creature dies only to the damage caused by this spell, they become shadows that serve you and your every whim for the remainder of this spell.",
+				"All creatures, regardless of how they die, give you additional years to your lifespan, going so far as to reverse the effects of aging all the way to your prime, that the dead creature had left in their life before they died.",
+				"Removal: The effects of the spell can only be removed by means of the {@spell wish} spell, or by an act of a god of light. If a wish spell is used to removed the effects of this spell, the caster of the wish can never again cast wish, and they take {@damage 9d12} necrotic damage."
+			]
+		}
+	]
+}
