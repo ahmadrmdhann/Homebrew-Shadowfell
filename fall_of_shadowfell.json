@@ -11,7 +11,7 @@
 					"amaR"
 				],
 				"version": "1.3.1",
-				"url": "https://raw.githubusercontent.com/ahmadrmdhann/Homebrew-Shadowfell/refs/heads/main/fall_of_shadowfell.json",
+				"url": "https://cdn.jsdelivr.net/gh/ahmadrmdhann/Homebrew-Shadowfell@main/fall_of_shadowfell.json",
 				"targetSchema": "1.0.0"
 			}
 		],
@@ -538,7 +538,7 @@
 						{
 							"type": "item",
 							"name": "Utilize",
-							"entry": "Chip off a stone sample (DC 10), Determine tunnel stability (DC 15), Extract a gem or crystal intact (DC 15), Create a small defensive earthwork (DC 15)."
+							"entry": "Chip off a stone sample ({@dc 10}), Determine tunnel stability ({@dc 15}), Extract a gem or crystal intact ({@dc 15}), Create a small defensive earthwork ({@dc 15})."
 						}
 					]
 				},
@@ -598,7 +598,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"miner's tools": true
+					"miner's tools|FotS": true
 				}
 			],
 			"startingEquipment": [
@@ -3065,14 +3065,26 @@
 				]
 			},
 			"entries": [
-				"Payment: As payment for casting this spell, you lose {@dice 3d100} years of your lifespan physically aging for that many years, and can never cast this spell again, even if you reincarnate into a new life. If the years lost of your lifespan would kill you, you turn to dust and cannot be revived by any means.",
+				{
+					"type": "entries",
+					"name": "Payment",
+					"entries": [
+						"As payment for casting this spell, you lose {@dice 3d100} years of your lifespan physically aging for that many years, and can never cast this spell again, even if you reincarnate into a new life. If the years lost of your lifespan would kill you, you turn to dust and cannot be revived by any means."
+					]
+				},
 				"You envelope the sun in an all consuming darkness, plunging the world around you into an eternal darkness. All natural light in a 50-mile-radius starting from the point at where you cast the spell is snuffed out, and the sun is enveloped in a shadow dripping eclipse.",
 				"All creatures that aren't you, inside any area of darkness inside of the spell without a source of light, begin to take {@damage 1d12} necrotic or psychic damage (choose upon casting this spell) every minute.",
 				"If a beast, humanoid, monstrosity, or undead, dies within the area of darkness with no light shown on their corpse. They are turned into an undead that must make a Wisdom saving throw upon being raised, or be forced to serve your will for the remainder of the spell. They can use all of the abilities and have all of the memmories that they had in life.",
 				"If they succeed on the Wisdom saving throw upon being raised or have an effect on them that prevent mind control, telepathy, or detection from magic, they are immune to the effects of the spell and are now wayward undead with free will.",
 				"If a humanoid creature dies only to the damage caused by this spell, they become shadows that serve you and your every whim for the remainder of this spell.",
 				"All creatures, regardless of how they die, give you additional years to your lifespan, going so far as to reverse the effects of aging all the way to your prime, that the dead creature had left in their life before they died.",
-				"Removal: The effects of the spell can only be removed by means of the {@spell wish} spell, or by an act of a god of light. If a wish spell is used to removed the effects of this spell, the caster of the wish can never again cast wish, and they take {@damage 9d12} necrotic damage."
+				{
+					"type": "entries",
+					"name": "Removal",
+					"entries": [
+						"The effects of the spell can only be removed by means of the {@spell wish} spell, or by an act of a god of light. If a wish spell is used to removed the effects of this spell, the caster of the wish can never again cast wish, and they take {@damage 9d12} necrotic damage."
+					]
+				}
 			]
 		}
 	]
