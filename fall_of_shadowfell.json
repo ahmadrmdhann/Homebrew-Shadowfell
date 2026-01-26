@@ -207,7 +207,7 @@
 			"entries": [
 				"At 14th level, you gain the ability to call forth the howling dogs of the darkness to hunt your foes.",
 				"As a {@variantrule bonus action|xphb}, you can spend 4 sorcery points to summon 4 Shadow Mastiffs to target a number of creatures equal to your Charisma modifier that you can see within 120 feet of you.",
-				"The Shadow Mastiffs use their normal statblock ({@creature shadow mastiff}) with the following changes:",
+				"The Shadow Mastiffs use their normal statblock ({@creature shadow mastiff|MPMM}) with the following changes:",
 				{
 					"type": "list",
 					"items": [
