@@ -4,21 +4,745 @@
 			{
 				"json": "FotS",
 				"abbreviation": "FotS",
-				"full": "Fall of the Shadowfell",
+				"full": "Fall of the Shadowfell Development",
 				"authors": [
 					"azazilieya",
 					"Sig",
 					"amaR"
 				],
 				"version": "1.3.1",
-				"url": "https://cdn.jsdelivr.net/gh/ahmadrmdhann/Homebrew-Shadowfell@main/fall_of_shadowfell.json",
+				"url": "https://cdn.jsdelivr.net/gh/ahmadrmdhann/Homebrew-Shadowfell@dev/fall_of_shadowfell.json",
 				"targetSchema": "1.0.0"
 			}
 		],
 		"dateAdded": 1716480000,
 		"dateLastModified": 1716560000
 	},
+	"class": [
+		{
+			"name": "Spider-Man",
+			"source": "FotS",
+			"hd": {
+				"faces": 8,
+				"number": 1
+			},
+			"proficiency": [
+				"str",
+				"dex"
+			],
+			"startingProficiencies": {
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"athletics",
+								"deception",
+								"insight",
+								"intimidation",
+								"investigation",
+								"perception",
+								"performance",
+								"persuasion",
+								"sleight of hand",
+								"stealth"
+							],
+							"count": 3
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"default": [
+					"(a) a {@item dagger|phb} or (b) a {@item shortsword|phb}",
+					"(a) a {@item staff|phb} or (b) 10 {@item dart|phb|darts}",
+					"(a) an {@item explorer's pack|phb} or (b) an {@item adventurer's pack|phb}"
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"dex": 13,
+					"con": 13
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Martial Arts"
+					],
+					"rows": [
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								]
+							}
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Webs|Spider-Man|FotS|1",
+				"Spider Climb|Spider-Man|FotS|1",
+				"Martial Arts|Spider-Man|FotS|1",
+				"Unarmored Defense|Spider-Man|FotS|2",
+				"Spidey Sense|Spider-Man|FotS|3",
+				{
+					"classFeature": "Spider Power Origin|Spider-Man|FotS|3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Spider-Man|FotS|4",
+				"Extra Attack|Spider-Man|FotS|5",
+				"Dodge Missiles|Spider-Man|FotS|5",
+				{
+					"classFeature": "Spider Power Origin Feature|Spider-Man|FotS|6",
+					"gainSubclassFeature": true
+				},
+				"Evasion|Spider-Man|FotS|7",
+				"Sturdy Web|Spider-Man|FotS|7",
+				"Advanced Web Swinging|Spider-Man|FotS|8",
+				"Ability Score Improvement|Spider-Man|FotS|8",
+				"Spider Hunter|Spider-Man|FotS|9",
+				{
+					"classFeature": "Spider Power Origin Feature|Spider-Man|FotS|10",
+					"gainSubclassFeature": true
+				},
+				"Web Throw|Spider-Man|FotS|11",
+				"Ability Score Improvement|Spider-Man|FotS|12",
+				"Ensnare Improvement|Spider-Man|FotS|13",
+				{
+					"classFeature": "Spider Power Origin Feature|Spider-Man|FotS|14",
+					"gainSubclassFeature": true
+				},
+				"Unbreakable Web|Spider-Man|FotS|15",
+				"Ability Score Improvement|Spider-Man|FotS|16",
+				"Web Throw Improvement|Spider-Man|FotS|17",
+				{
+					"classFeature": "Spider Power Origin Feature|Spider-Man|FotS|18",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Spider-Man|FotS|19",
+				"Web Recovery|Spider-Man|FotS|20"
+			],
+			"subclassTitle": "Spider Power Origin",
+			"page": 0,
+			"hasFluff": true
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Webs",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 1,
+			"entries": [
+				"At 1st level, as a spider you are have the power to spin webs. Your access to your spider powers is represented by a number of web points, which you can spend to fuel various spider features. You have a number of web points equal to your Spider-Man level + your Constitution modifier. When you spend a web point, it is unavailable until you finish a short or long rest.",
+				"Some of your spider features require your target to make a saving throw to resist the feature's effects. In this case, the DC is calculated as follows:",
+				{
+					"type": "abilityDc",
+					"name": "Web",
+					"attributes": [
+						"con"
+					]
+				},
+				"The webs have a durability of 20 hit points and are vulnerable to fire and slashing damage.",
+				{
+					"type": "entries",
+					"name": "Web Swing",
+					"entries": [
+						"Provided there is terrain for you to swing on, you can spend 1 web point to move up to 60 feet in any direction, including vertically, by swinging yourself to to the new point. Doing so counts as your movement on this turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ensnare",
+					"entries": [
+						"As an action you can spend 1 web point to attempt to ensnare a creature no larger than Large size within 50 feet of you. The creature must make a Dexterity saving throw or become {@condition restrained} until broken free. The creature may attempt to break free at the end of each turn with a Strength save against your Web DC.",
+						"Additionally, you can spend 2 web points instead of 1 to attempt to ensnare two creatures that are within 5 feet of each other."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spider Web",
+					"entries": [
+						"As an action you can use 1 web point to make a giant spider web at a point of your choice within 50 feet of you. The webs fill a 20-foot cube and stay there for 1 day. The web can support you and one other medium sized creature. The webs are difficult terrain and lightly obscure their area. If the webs aren't anchored between two solid masses (such as walls or trees or across a floor, wall, or ceiling) the conjured web collapses on itself, and the webs disappear at the start of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Spider Climb",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 1,
+			"entries": [
+				"You have the ability to climb up walls like a spider. At 1st level You can climb up and across any surface without needing to make an ability check, giving you a climb speed equal to your walking speed. When you are fully upside down you can spend 1 web point to perform one of the following maneuvers:",
+				{
+					"type": "entries",
+					"name": "Spider Yo-Yo",
+					"entries": [
+						"You use your webbing to go vertically upside down without touching the ground. When you are upside down you must have one hand on the web."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Killer Spider",
+					"entries": [
+						"You can stealthily ensnare a target. Make a {@skill Stealth} check opposed by the targets' {@skill Perception} checks. On a success you ensnare them and gain a surprise round."
+					]
+				}
+			]
+		},
+		{
+			"name": "Martial Arts",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 1,
+			"entries": [
+				"At 1st level your strikes deal more power thanks to your spider lineage. You gain the following benefits while you are unarmed or you aren't wearing armor or wielding a shield:",
+				{
+					"type": "list",
+					"items": [
+						"You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and spider weapons.",
+						"You can roll a {@dice d4} in place of the normal damage of your unarmed strike or spider weapon. This die changes as you gain Spider-Person levels, as shown in the Martial Arts column of the Spider-Person table.",
+						"When you use the Attack action with an unarmed strike or a spider weapon on your turn, you can make one unarmed strike as a bonus action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Unarmored Defense",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 2,
+			"entries": [
+				"Once you reach 2nd level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Constitution modifier."
+			]
+		},
+		{
+			"name": "Spidey Sense",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 3,
+			"entries": [
+				"Once you reach 3rd level, you develop a sixth sense that boarders on recognition which keeps you from danger. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You are aware of enemies and their locations within a 15 foot radius of yourself as long as they are not invisible."
+					]
+				},
+				"At 10th level creatures don't gain advantage in attack rolls as a result of being unseen by you.",
+				"At 14th level you know the presence of creatures that are invisible and even stealthy. You gain {@sense blindsight} out to 15ft around you."
+			]
+		},
+		{
+			"name": "Spider Power Origin",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 3,
+			"entries": [
+				"At 3rd level you get to choose a Spider Power Origin. There are three archetype to choose from: the Symbiote, Electric Spidey (Spider Tech), or Innovative Spider (Superior spider-person). Your Archetype grants you features at 3rd, 6th, 10th, 14th and 18th level."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, and again at 8th, 12th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 5,
+			"entries": [
+				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
+			]
+		},
+		{
+			"name": "Dodge Missiles",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 5,
+			"entries": [
+				"Starting at 5th level, you can use your reaction to dodge a missile when you are hit by a ranged weapon attack. When you use your reaction in this way, the damage you take from the attack is reduced by {@dice 1d10} + your Dexterity modifier + your spider person level.",
+				"If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can make a ranged attack with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, which has a normal range of 20 feet and a long range of 60 feet."
+			]
+		},
+		{
+			"name": "Spider Power Origin Feature",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain a feature granted by your Spider Power Origin."
+			]
+		},
+		{
+			"name": "Evasion",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 7,
+			"entries": [
+				"Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an Ice Storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+			]
+		},
+		{
+			"name": "Sturdy Web",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 7,
+			"entries": [
+				"Once you reach 7th level, Your experience with using your webs for a long time has made them stronger. Your webs now have 40 hit points and are no longer vulnerable to fire damage."
+			]
+		},
+		{
+			"name": "Advanced Web Swinging",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 8,
+			"entries": [
+				"Beginning at 8th level, when you use your Web Swing ability, you no longer incur attacks of opportunity when leaving the engagement range of a hostile creature. Additionally, you may retract your webs after using them to swing; after using a web point to use Web Swing, you may use it again on the subsequent 2 turns without using another web point. While outside of combat, you may web swing indefinitely, provided there is terrain to swing from."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 8,
+			"entries": [
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Spider Hunter",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 9,
+			"entries": [
+				"Once you reach 9th level, The Spider powers in you makes you into a fierce hunter. You add your proficiency bonus to {@skill Stealth} checks. If you are already proficient in {@skill Stealth}, you gain Expertise instead. You can use the {@action Hide} action as a bonus action. Additionally, while you are hidden you can add your Dexterity modifier to your attack and damage rolls an additional time."
+			]
+		},
+		{
+			"name": "Spider Power Origin Feature",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 10,
+			"entries": [
+				"At 10th level, you gain a feature granted by your Spider Power Origin."
+			]
+		},
+		{
+			"name": "Web Throw",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 11,
+			"entries": [
+				"Beginning at 11th level, you have the ability to use your webs to fling objects around the room, smashing them into your enemies at high speed. As an action, you can throw an object of up to half your carry weight that is within 30 feet of you and fling it at any target also within 30 ft of you.",
+				"The target must makes a Dexterity saving throw. On a failed save, they take {@damage 5d8} bludgeoning damage, and fall prone if they are of size Medium or smaller. On a successful save, they take half as much damage, and do not fall prone."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Ensnare Improvement",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 13,
+			"entries": [
+				"At 13th level, you may spend 3 web points to ensnare Huge creatures, and 4 to try to ensnare Gargantuan creatures (Provided the DM allows such an ensnarement of a particular creature of said size). These size creatures have advantage on both Dexterity saves to avoid being ensnared and Strength saves to break free of ensnarement."
+			]
+		},
+		{
+			"name": "Spider Power Origin Feature",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 14,
+			"entries": [
+				"At 14th level, you gain a feature granted by your Spider Power Origin."
+			]
+		},
+		{
+			"name": "Unbreakable Web",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 15,
+			"entries": [
+				"At 14th level, your webs grow even stronger, becoming practically invulnerable to harm. Your webs now have 100 hit points and {@condition resistance} to fire damage and is no longer vulnerable to slashing damage. Creatures who are ensnared by your webs have {@condition disadvantage} on ability checks to break free."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Web Throw Improvement",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 17,
+			"entries": [
+				"At 17th level, the thrown object can now knock prone size Large or smaller, and you can now throw objects up to your carry weight. Additionally, can throw any creature size Medium or smaller that have been restrained by your webs. The creature can be thrown at a wall or object, or another creature. If the target is another creature, both are affected as if hit with an object normally. If the target creature fails their save, the webbing is also transferred to them, restraining them as if the Ensnare ability had been used on them."
+			]
+		},
+		{
+			"name": "Spider Power Origin Feature",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 18,
+			"entries": [
+				"At 18th level, you gain a feature granted by your Spider Power Origin."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Web Recovery",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"level": 20,
+			"entries": [
+				"At level 20, the 'agent' of your Web creation, be it from a symbiote, innate webbing ability, or tech based web shooters, will never allow you to be without webs. When you roll for initiative you can take a -10 on the roll to gain 10 web points. You can use this feature once in between long rests."
+			]
+		}
+	],
 	"subclass": [
+		{
+			"name": "Symbiote",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"shortName": "Symbiote",
+			"subclassFeatures": [
+				"Symbiote|Spider-Man|FotS|Symbiote|FotS|3",
+				"Symbiote Strength|Spider-Man|FotS|Symbiote|FotS|6",
+				"Symbiote Reach|Spider-Man|FotS|Symbiote|FotS|10",
+				"Symbiote Toxins|Spider-Man|FotS|Symbiote|FotS|14",
+				"Total Symbiote|Spider-Man|FotS|Symbiote|FotS|18"
+			]
+		},
+		{
+			"name": "Electric Spidey",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"shortName": "Electric",
+			"subclassFeatures": [
+				"Electric Spidey|Spider-Man|FotS|Electric|FotS|3",
+				"Enhanced Suit Gloves|Spider-Man|FotS|Electric|FotS|6",
+				"Counter Web|Spider-Man|FotS|Electric|FotS|10",
+				"Shock Webs|Spider-Man|FotS|Electric|FotS|14",
+				"Web Blossom|Spider-Man|FotS|Electric|FotS|18"
+			]
+		},
+		{
+			"name": "Innovative Spider",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"page": 0,
+			"shortName": "Innovative",
+			"subclassFeatures": [
+				"Innovative Spider|Spider-Man|FotS|Innovative|FotS|3",
+				"Spider's Legs|Spider-Man|FotS|Innovative|FotS|6",
+				"Spider's Webs|Spider-Man|FotS|Innovative|FotS|10",
+				"Spider's Stealth|Spider-Man|FotS|Innovative|FotS|14",
+				"Spider's Strike|Spider-Man|FotS|Innovative|FotS|18"
+			]
+		},
 		{
 			"name": "Shadowborn",
 			"shortName": "Shadowborn",
@@ -65,6 +789,280 @@
 		}
 	],
 	"subclassFeature": [
+		{
+			"name": "Symbiote",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"subclassSource": "FotS",
+			"subclassShortName": "Symbiote",
+			"page": 0,
+			"level": 3,
+			"entries": [
+				"A symbiote has attached itself to your body, it has a symbiotic relationship with you, you keep the symbiote alive and it keeps you safe in battle it also acts as a weapon if needed in battle. The Symbiote is capable of turning into different Weapons, is strong enough to lift carriages and has limbs that stretch vast distances.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bodily Weapons|Spider-Man|FotS|Symbiote|FotS|3|FotS"
+				}
+			]
+		},
+		{
+			"name": "Bodily Weapons",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"subclassSource": "FotS",
+			"subclassShortName": "Symbiote",
+			"page": 0,
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level you choose 3 different melee weapons, and as a free action can cause your body to morph into one of your chosen weapons. You gain proficiency with these weapons and can use an unarmed strike as a bonus action when using them."
+			]
+		},
+		{
+			"name": "Symbiote Strength",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"subclassSource": "FotS",
+			"subclassShortName": "Symbiote",
+			"page": 0,
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level your body gets a boost in physical power; your pull, drag and lift is now tripled. Your bodily weapons now count as magic for the purposes of overcoming resistances."
+			]
+		},
+		{
+			"name": "Symbiote Reach",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"subclassSource": "FotS",
+			"subclassShortName": "Symbiote",
+			"page": 0,
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level your limbs can grow longer giving you an extra reach of 15 feet. In addition you gain advantage on grapple checks."
+			]
+		},
+		{
+			"name": "Symbiote Toxins",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"subclassSource": "FotS",
+			"subclassShortName": "Symbiote",
+			"page": 0,
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level as an action, using 3 web points, you can touch a creature, forcing the creature to make a constitution saving throw. On a failed save, they take {@damage 5d10} necrotic damage. Add martial arts die to bodily weapon damage for all attacks made with bodily weapons."
+			]
+		},
+		{
+			"name": "Total Symbiote",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"subclassSource": "FotS",
+			"subclassShortName": "Symbiote",
+			"page": 0,
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level your symbiote gives you enhanced capability. You gain advantage in all stealth checks and can even turn invisible using a bonus action and 5 web points."
+			]
+		},
+		{
+			"name": "Electric Spidey",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"subclassSource": "FotS",
+			"subclassShortName": "Electric",
+			"page": 0,
+			"level": 3,
+			"entries": [
+				"Your Spider poweres and tech become even more advanced giving you awesome powers. Your webs become even stronger as do you.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spider Suit|Spider-Man|FotS|Electric|FotS|3|FotS"
+				}
+			]
+		},
+		{
+			"name": "Spider Suit",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"subclassSource": "FotS",
+			"subclassShortName": "Electric",
+			"page": 0,
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level you create a suit specifically for your body and spider powers. The suit is a spandex made of a special material that allows you to use your spider powers through it and fits neatly underneath any clothing. This suit grants you resistance to one type of elemental damage (fire, cold, lightning) at this level, one additional type of damage at 7th level, and one type of esoteric damage (Necrotic, Psychic, Radiant) at 13th level. This Suit is designed to take only an action to don and doff."
+			]
+		},
+		{
+			"name": "Enhanced Suit Gloves",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"subclassSource": "FotS",
+			"subclassShortName": "Electric",
+			"page": 0,
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level you build or enchant magical energy into your suits gloves. Your unarmed strikes now count as magical for the sake of overcoming resistances as long as you are wearing your Spider Suit.",
+				"At 10th level you also manage to imbibe electrical energy into them, allowing you to add {@damage 1d6} lightning damage to your attacks."
+			]
+		},
+		{
+			"name": "Counter Web",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"subclassSource": "FotS",
+			"subclassShortName": "Electric",
+			"page": 0,
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, when a hostile creature misses you with an attack, you may use your reaction and 1 web point to fire a ball of webbing into the enemies face. The enemy most make a dex save or it is considered {@condition blinded}, until your next turn. Additionally, the creature remains {@condition blinded} until it or another creature takes an makes a Strength check to remove the webbing against your Web DC. The creature must have eyes in order to be blinded."
+			]
+		},
+		{
+			"name": "Shock Webs",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"subclassSource": "FotS",
+			"subclassShortName": "Electric",
+			"page": 0,
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th your Spider Suit hums with lighting which allows you to release it though your webs. As an action you can spend 2 web points to shoot an electrefied ball of webbing at an enemy. Make a ranged attack against the creature of your choice. On a hit, the target takes {@damage 2d8} lightning damage, and must make a Constitution saving throw against your Web DC or be {@condition stunned} until your next turn."
+			]
+		},
+		{
+			"name": "Web Blossom",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"subclassSource": "FotS",
+			"subclassShortName": "Electric",
+			"page": 0,
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, you have become so proficient with your webbing abilities, you may now create a flurry of ensnaring webs around you. You may use 6 web points to leap into the air and perform a feat of rotating acrobatics, sending webs in every direction. Any creature within 50 ft of you is subject to the Ensnare Web ability, and must make at Dexterity save against your Web DC or be {@condition Restrained}, with same rules as the base Ensnare ability. Huge and larger creatures are unaffected by Web Blossom."
+			]
+		},
+		{
+			"name": "Innovative Spider",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"subclassSource": "FotS",
+			"subclassShortName": "Innovative",
+			"page": 0,
+			"level": 3,
+			"entries": [
+				"You go above and beyond creating more and better webslinger modifications to aid you in combat.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spider's Brood|Spider-Man|FotS|Innovative|FotS|3|FotS"
+				}
+			]
+		},
+		{
+			"name": "Spider's Brood",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"subclassSource": "FotS",
+			"subclassShortName": "Innovative",
+			"page": 0,
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, You gain the ability to shoot a ranged web pellet, this pellet does your martial arts die damage and has a range of 30/90.",
+				"You also have a drone which has 2 times your level health (eg. level 14, Your drone has 28 HP). Your drone has 8 + proficiency bonus AC. You can see everything your drone sees but your drone must be within 30 ft of you, this changes to 60 ft at 7th level and 100 ft at 14th.",
+				"As a bonus action you can command your drone to either move or attack. Your drone can deal {@damage 1d6} lightning damage 10/30 range. You may have up to half you level amount of drones but each drone costs 100 GP and one week. And you can only control one drone per turn. This changes to 2 at 5th level, 3 at 9th, 4 at 13th, and 5 at 20th level."
+			]
+		},
+		{
+			"name": "Spider's Legs",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"subclassSource": "FotS",
+			"subclassShortName": "Innovative",
+			"page": 0,
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, You have added mechanical spider legs to your suit, these legs each deal {@damage 1d10} piercing damage. 2 can be used per attack. You have 4 legs, these technological wonders also allow you to climb without using your hands."
+			]
+		},
+		{
+			"name": "Spider's Webs",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"subclassSource": "FotS",
+			"subclassShortName": "Innovative",
+			"page": 0,
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, you’ve created many magical and technological webslinger modifiers. You can use these mods by spending web points.",
+				{
+					"type": "list",
+					"items": [
+						"**Impact webs (4 web points):** You shoot a pellet that expands on impact. This pellet deals {@damage 2d10} bludgeoning damage and has a range of 30/90. The target must make a strength saving throw or else they become {@condition restrained}. At the start of their turn they can attempt to make a strength saving throw to break free. You can add 1 web point to deal an extra {@damage 2d10} bludgeoning damage.",
+						"**Taser web (2 web points):** Make a ranged attack against the creature of your choice. On a hit, the target takes {@damage 2d8} lightning damage, and must make a Constitution saving throw against your Web DC or be {@condition stunned} until your next turn. You can spend another 1 web point to add {@damage 1d8} lightning damage.",
+						"**Web Grenade (4 web points):** Fireball but bludgeoning damage and all targets have to make a dexterity saving throw or be {@condition restrained}.",
+						"**Concussive blast (4 web points):** All targets in a 15ft cone in front of you make a strength saving throw or is knocked back {@dice 1d10} x 5 ft back and fall prone. If they succeed the throw they just fall prone.",
+						"**Rapid fire (2 web point):** Make 4 ranged web attacks as a bonus action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Spider's Stealth",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"subclassSource": "FotS",
+			"subclassShortName": "Innovative",
+			"page": 0,
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, You become {@condition invisible} for 1 minute out of combat, or invisible until you next turn while in combat. This ability doesn’t trigger opportunity attacks. You can use this once per short or long rest."
+			]
+		},
+		{
+			"name": "Spider's Strike",
+			"source": "FotS",
+			"className": "Spider-Man",
+			"classSource": "FotS",
+			"subclassSource": "FotS",
+			"subclassShortName": "Innovative",
+			"page": 0,
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, You gain the ability to set up lethal vibrations in someone’s body. When you hit a creature with an unarmed strike, you can spend 5 web points to start these imperceptible vibrations, which last for a number of days equal to your spider-person level. The vibrations are harmless unless you use your action to end them. To do so, you and the target must be on the same plane of existence. When you use this action, the creature must make a Constitution saving throw. If it fails, it is reduced to 0 hit points. If it succeeds, it takes {@damage 10d10} necrotic damage. You can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly without using an action."
+			]
+		},
 		{
 			"name": "Shadowborn",
 			"source": "FotS",
@@ -408,6 +1406,43 @@
 				"Creatures that are hit by this ability must make an Intelligence saving throw or be {@condition blinded} by light warping shadows.",
 				"On a failed save they become beacons of darkness blinding them for 2 rounds that you can use 5 feet of movement on your turn to teleport to, you're also granted {@variantrule advantage|xphb} on all attack rolls against these creatures.",
 				"On a success they're only {@condition blinded} until the end of the next creatures turn."
+			]
+		}
+	],
+	"classFluff": [
+		{
+			"name": "Spider-Man",
+			"source": "FotS",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Spider-Man",
+					"page": 0,
+					"source": "FotS",
+					"entries": [
+						"How you got your powers may vary from person to person, maybe you were bitten by a magical spider, maybe you were fused with a symbiotic or parasitic organism of some sort. But the effect remains the same; you now have all of the powers of a spider, and you have chosen to use those powers to do something more, be it protect the innocent, or punish the wicked.",
+						{
+							"type": "entries",
+							"name": "Creating a Spider-Man",
+							"page": 0,
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Quick Build",
+											"page": 0,
+											"entries": [
+												"You can make a Spider-Man quickly by following these suggestions. First, Dexterity should be your highest ability score, followed by Constitution. Second, choose the Urban Vigilante background."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
 			]
 		}
 	],
