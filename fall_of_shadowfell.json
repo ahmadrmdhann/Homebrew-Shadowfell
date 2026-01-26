@@ -1775,7 +1775,7 @@
 					"type": "entries",
 					"name": "Cantrip",
 					"entries": [
-						"You learn one cantrip of your choice from the {@filter Wizard spell list|spells|class=Wizard|school=N;I}. {@skill Intelligence} is your spellcasting ability for it."
+						"You learn one cantrip of your choice from the {@filter Wizard spell list|spells|class=Wizard|level=0|school=N;I}. {@skill Intelligence} is your spellcasting ability for it."
 					]
 				},
 				{
