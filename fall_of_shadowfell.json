@@ -619,8 +619,12 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"You have toiled in the sunless depths where the veil between the Material Plane and the Shadowfell is dangerously thin. Your hands are callous and stained with coal and dark crystal dust, and your lungs have grown accustomed to air that tastes of stale magic. While others fear the dark, you have learned to navigate it."
+				]
+			},
 			"entries": [
-				"You have toiled in the sunless depths where the veil between the Material Plane and the Shadowfell is dangerously thin. Your hands are callous and stained with coal and dark crystal dust, and your lungs have grown accustomed to air that tastes of stale magic. While others fear the dark, you have learned to navigate it.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -732,8 +736,12 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"The machinery of the kingdom runs on ink, stamps, and the occasional silenced witness. You were once a cog in this corrupt engine, falsifying reports to cover up the horrors of the mines. Whether you fled due to guilt or became a liability, you carry the secrets of the state."
+				]
+			},
 			"entries": [
-				"The machinery of the kingdom runs on ink, stamps, and the occasional silenced witness. You were once a cog in this corrupt engine, falsifying reports to cover up the horrors of the mines. Whether you fled due to guilt or became a liability, you carry the secrets of the state.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -842,8 +850,12 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"You wore the badge of the crown, sworn to uphold order in a kingdom sliding into chaos. Now, disillusioned by the corruption you served, you walk a fine line between the lawman you were trained to be and the vigilante the world needs."
+				]
+			},
 			"entries": [
-				"You wore the badge of the crown, sworn to uphold order in a kingdom sliding into chaos. Now, disillusioned by the corruption you served, you walk a fine line between the lawman you were trained to be and the vigilante the world needs.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -949,8 +961,12 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"Where others see terrifying monsters and creeping gloom, you see a fascinating ecosystem waiting to be cataloged. You have dedicated your life to studying the bleed of the Shadowfell, risking your sanity to understand the metaphysics of darkness."
+				]
+			},
 			"entries": [
-				"Where others see terrifying monsters and creeping gloom, you see a fascinating ecosystem waiting to be cataloged. You have dedicated your life to studying the bleed of the Shadowfell, risking your sanity to understand the metaphysics of darkness.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -1057,8 +1073,12 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"Born in the gutters under the shadow of tyrannical spires, you are the voice of the voiceless. Whether organizing strikes, spreading propaganda, or sabotaging supply lines, you fight for a dawn that seems impossible to reach."
+				]
+			},
 			"entries": [
-				"Born in the gutters under the shadow of tyrannical spires, you are the voice of the voiceless. Whether organizing strikes, spreading propaganda, or sabotaging supply lines, you fight for a dawn that seems impossible to reach.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -1165,8 +1185,12 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"In a crumbling kingdom, morality is a luxury you cannot afford. You operate in the gray markets, dealing in illicit goods. You understand the value of everything and know exactly whose palms to grease to get what you want."
+				]
+			},
 			"entries": [
-				"In a crumbling kingdom, morality is a luxury you cannot afford. You operate in the gray markets, dealing in illicit goods. You understand the value of everything and know exactly whose palms to grease to get what you want.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -1274,8 +1298,12 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"Your name was once spoken with reverence, but now it is whispered as a cautionary tale. Cast out for political failure, you retain your education and bearing. You carry the weight of a fallen house, seeking to reclaim your honor."
+				]
+			},
 			"entries": [
-				"Your name was once spoken with reverence, but now it is whispered as a cautionary tale. Cast out for political failure, you retain your education and bearing. You carry the weight of a fallen house, seeking to reclaim your honor.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -1383,8 +1411,12 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"Identity is fluid, and truth is a commodity. You are a master of blending in. You have sold secrets to both the crown and the resistance, surviving by making yourself indispensable—and invisible."
+				]
+			},
 			"entries": [
-				"Identity is fluid, and truth is a commodity. You are a master of blending in. You have sold secrets to both the crown and the resistance, surviving by making yourself indispensable—and invisible.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -1492,8 +1524,12 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"You swore oaths to protect the weak, but the Shadowfell's encroachment shattered those ideals. Having forsaken your title, you are now a warrior without a master, a blade seeking a new purpose in a dying world."
+				]
+			},
 			"entries": [
-				"You swore oaths to protect the weak, but the Shadowfell's encroachment shattered those ideals. Having forsaken your title, you are now a warrior without a master, a blade seeking a new purpose in a dying world.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -1601,8 +1637,12 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"The Shadowfell did not just touch your life; it seeped into your blood. Raised in the proximity of dark rifts, you possess an innate connection to the gloom. Normal society shuns you, but you find comfort in the dark places."
+				]
+			},
 			"entries": [
-				"The Shadowfell did not just touch your life; it seeped into your blood. Raised in the proximity of dark rifts, you possess an innate connection to the gloom. Normal society shuns you, but you find comfort in the dark places.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
