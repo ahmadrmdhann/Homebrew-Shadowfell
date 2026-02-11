@@ -18,162 +18,214 @@
 		"dateAdded": 1716480000,
 		"dateLastModified": 1716560000
 	},
-    "subclass": [
-        {
-            "name": "Shaded Soul",
-            "shortName": "Shaded Soul",
-            "source": "FotS",
-            "className": "Sorcerer",
-            "classSource": "PHB",
-            "subclassFeatures": [
-                "Shaded Soul|Sorcerer|PHB|Shaded Soul|FotS|3",
-                "Cloak of Enveloping Shade|Sorcerer|PHB|Shaded Soul|FotS|6",
-                "Eclipse Dome|Sorcerer|PHB|Shaded Soul|FotS|14",
-                "Umbral Wave|Sorcerer|PHB|Shaded Soul|FotS|18"
-            ],
-            "subclassSpells": [
-                "Dissonant Whispers",
-                "Mind Sliver",
-                "Pass without Trace",
-                "Nondetection",
-                "Phantasmal Killer",
-                "Mislead",
-                "Mental Prison"
-            ]
-        }
-    ],
-    "subclassFeature": [
-        {
-            "name": "Shaded Soul",
-            "source": "FotS",
-            "className": "Sorcerer",
-            "classSource": "PHB",
-            "subclassShortName": "Shaded Soul",
-            "subclassSource": "FotS",
-            "level": 3,
-            "entries": [
-                "Your soul has been marked by the Plane of Shadow. This gloom did not shatter your mind—it strengthened your will. The darkness clings to you, answers you, and bends to your command.",
-                {
-                    "type": "entries",
-                    "name": "Shaded Soul Origin Spells",
-                    "entries": [
-                        "You learn additional spells when you reach certain levels in this class, as shown on the Shaded Soul Spells table. Each spell counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
-                        {
-                            "type": "table",
-                            "caption": "Shaded Soul Spells",
-                            "colLabels": [
-                                "Sorcerer Level",
-                                "Spells"
-                            ],
-                            "colStyles": [
-                                "col-2 text-center",
-                                "col-10"
-                            ],
-                            "rows": [
-                                [
-                                    "3rd",
-                                    "{@spell Dissonant Whispers}, {@spell Mind Sliver}, {@spell Pass without Trace}, {@spell Nondetection}"
-                                ],
-                                [
-                                    "5th",
-                                    "{@spell Phantasmal Killer}"
-                                ],
-                                [
-                                    "7th",
-                                    "{@spell Mislead}"
-                                ],
-                                [
-                                    "9th",
-                                    "{@spell Mental Prison}"
-                                ]
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "A Shadow Beyond Sight",
-                    "entries": [
-                        "Starting at 3rd level, when you hit a creature with a spell attack from a sorcerer spell, or when a creature fails a saving throw against one of your sorcerer spells, you can mark that creature with shadow magic (no action required).",
-                        "Until the start of your next turn, you gain the following benefits against the marked creature:",
-                        {
-                            "type": "list",
-                            "items": [
-                                "You are {@condition invisible} to that creature while you are more than 10 feet away from it.",
-                                "The next attack roll you make against that creature before the end of your next turn has {@variantrule advantage}."
-                            ]
-                        },
-                        "You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Eyes of the Dark",
-                    "entries": [
-                        "At 3rd level, you gain darkvision with a range of 120 feet. You can see normally in magical darkness that you create.",
-                        "Additionally, you learn the {@spell darkness} spell. It counts as a sorcerer spell for you and doesn't count against the number of spells you know."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Cloak of Enveloping Shade",
-            "source": "FotS",
-            "className": "Sorcerer",
-            "classSource": "PHB",
-            "subclassShortName": "Shaded Soul",
-            "subclassSource": "FotS",
-            "level": 6,
-            "entries": [
-                "At 6th level, your connection to the shadow grants you resistance to psychic damage.",
-                "As a bonus action, you can spend 2 sorcery points to wreath yourself in a cloak of dancing shadows for 1 minute. While the cloak is active, you gain the following benefits:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Your walking speed increases by 10 feet, and your jump distance increases by 10 feet.",
-                        "You gain a +2 bonus to your Armor Class."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Shadow Walk",
-                    "entries": [
-                        "Also at 6th level, while you are in dim light or darkness, you can use a bonus action to teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Eclipse Dome",
-            "source": "FotS",
-            "className": "Sorcerer",
-            "classSource": "PHB",
-            "subclassShortName": "Shaded Soul",
-            "subclassSource": "FotS",
-            "level": 14,
-            "entries": [
-                "Starting at 14th level, you can manifest a 30-foot radius dome of magical darkness centered on yourself. The dome lasts for 1 minute.",
-                "When you create the dome, you gain temporary hit points equal to your sorcerer level. While you are inside the dome, you know the location of all creatures within it, though you do not learn their conditions.",
-                "When you create the dome, you choose any number of creatures you can see. Those creatures can see normally within the dome. All other creatures treat the area as heavily obscured unless they possess {@sense blindsight} or {@sense truesight}. Creatures that rely on {@sense darkvision} cannot see through this darkness.",
-                "Once you use this feature, you can't use it again until you finish a long rest, unless you spend 6 sorcery points to use it again."
-            ]
-        },
-        {
-            "name": "Umbral Wave",
-            "source": "FotS",
-            "className": "Sorcerer",
-            "classSource": "PHB",
-            "subclassShortName": "Shaded Soul",
-            "subclassSource": "FotS",
-            "level": 18,
-            "entries": [
-                "At 18th level, you gain immunity to psychic damage. Additionally, while in dim light or darkness, you can take the Hide action even if you are only lightly obscured.",
-                "As an action, you can spend 5 sorcery points to unleash a wave of shadow in a 30-foot cone. Creatures of your choice in the area must make an Intelligence saving throw against your spell save DC. On a failed save, a creature is {@condition blinded} until the end of your next turn. Until that blindness ends, once per turn when you move at least 10 feet, you can teleport to an unoccupied space within 5 feet of one creature blinded by this feature.",
-                "On a successful save, the creature is not blinded but has {@variantrule disadvantage} on the next attack roll it makes before the end of its next turn.",
-                "Once you use this feature, you can't use it again until you finish a long rest, unless you spend 6 sorcery points to use it again."
-            ]
-        }
-    ],
+	"subclass": [
+		{
+			"name": "Shaded Soul",
+			"shortName": "Shaded Soul",
+			"source": "FotS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"Shaded Soul|Sorcerer|PHB|Shaded Soul|FotS|3",
+				"Cloak of Enveloping Shade|Sorcerer|PHB|Shaded Soul|FotS|6",
+				"Eclipse Dome|Sorcerer|PHB|Shaded Soul|FotS|14",
+				"Umbral Wave|Sorcerer|PHB|Shaded Soul|FotS|18"
+			],
+			"subclassSpells": [
+				"Dissonant Whispers",
+				"Mind Sliver|TCE",
+				"Pass without Trace",
+				"Nondetection",
+				"Phantasmal Killer",
+				"Mislead",
+				"Mental Prison|XGE"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Shaded Soul",
+			"source": "FotS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Shaded Soul",
+			"subclassSource": "FotS",
+			"level": 3,
+			"entries": [
+				"Your soul is shrouded by the shadows, warped by their overwhelming presence. Your power came from a fragment of magic imbued upon you by the griping plane of shadows. your mind should've been shattered like many others who encountered such powers. But your Will is stronger.",
+				{
+					"type": "table",
+					"caption": "Shaded Soul Sorcerer Quirks",
+					"colLabels": [
+						"d6",
+						"Quirk"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"Your skin is reflectively pale, and you don't seem to be able to tan."
+						],
+						[
+							"2",
+							"You can't seem to properly express emotions, instead the shadows warp and dance around you."
+						],
+						[
+							"3",
+							"You can't see peoples faces, only their skeletons."
+						],
+						[
+							"4",
+							"Your heart beats once per minute. This event sometimes surprises you."
+						],
+						[
+							"5",
+							"Your arms and legs are covered in unwavering, and unmoving shadows."
+						],
+						[
+							"6",
+							"You blinked. Once. Last week."
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shaded Soul Origin Spells",
+					"entries": [
+						{
+							"type": "table",
+							"caption": "Shaded Soul Origin Spells",
+							"colLabels": [
+								"Sorcerer Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"3rd",
+									"{@spell Dissonant Whispers}, {@spell Mind Sliver|TCE}, {@spell Pass without Trace}, {@spell Nondetection}"
+								],
+								[
+									"5th",
+									"{@spell Phantasmal Killer}"
+								],
+								[
+									"7th",
+									"{@spell Mislead}"
+								],
+								[
+									"9th",
+									"{@spell Mental Prison|XGE}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "A Shadow Beyond Sight",
+					"entries": [
+						"You can flicker from the vision of your foes as your magic ensnares them. When you hit a creature with a spell attack from a sorcerer spell, or it fails its saving throw against a sorcerer spell, you can mark it with dark magic.",
+						"Until the end of your next turn, you become {@condition invisible} to that creature as long as you aren't within 10 feet of it.",
+						"You can use this feature a number of times equal to your Charisma modifier, you regain all uses after a rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Eyes of the Dark",
+					"entries": [
+						"You can see normally in the dark and dim conditions with a range of 120 feet, and you can see through all magical darkness. Additionally you can expend 3 sorcery points to see through others magical darkness for 1 hour.",
+						"You learn the {@spell darkness} spell, which doesn't count against your number of sorcerer spells known. Which you can cast by spending 3 sorcery points."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cloak of Enveloping Shade",
+			"source": "FotS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Shaded Soul",
+			"subclassSource": "FotS",
+			"level": 6,
+			"entries": [
+				"You gain resistance to psychic damage.",
+				"As a {@variantrule bonus action|xphb}, you can spend 3 sorcery points to shroud yourself in protective shadow for 1 minute. This effect does not require {@variantrule concentration|xphb}.",
+				"While the cloak is active:",
+				{
+					"type": "list",
+					"items": [
+						"Your AC increases by 2.",
+						"Your walking speed increases by 10 feet.",
+						"You have {@variantrule advantage|xphb} on Dexterity ({@skill Stealth}) checks made in dim light or darkness."
+					]
+				},
+				"You can extend the duration by 1 minute by spending 2 additional sorcery points, up to a maximum duration of 3 minutes total.",
+				{
+					"type": "entries",
+					"name": "Shadow Walk",
+					"entries": [
+						"While you are in dim light or darkness, you can use a {@variantrule bonus action|xphb} to teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness.",
+						"After teleporting, you have {@variantrule advantage|xphb} on the first attack roll you make before the end of the turn.",
+						"You can use this feature a number of times equal to your {@table Proficiency Bonus|XPHB}, and you regain all expended uses when you finish a {@variantrule long rest|xphb}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Eclipse Dome",
+			"source": "FotS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Shaded Soul",
+			"subclassSource": "FotS",
+			"level": 14,
+			"entries": [
+				"As an action, you can spend 5 sorcery points to create a 20-foot-radius sphere of magical darkness centered on a point you can see within 60 feet. The dome lasts for 1 minute.",
+				"You know the location of all creatures within the dome while you are inside it, though you do not learn their conditions.",
+				"When you create the dome, you gain temporary hit points equal to your sorcerer level.",
+				"You choose any number of creatures you can see when the dome is created. Those creatures can see normally within the dome.",
+				"All other creatures treat the area as {@quickref heavily obscured|xphb|3|0|heavily obscured} unless they possess {@sense blindsight} or {@sense truesight}. Creatures that rely on {@sense darkvision} do not see through this darkness.",
+				"This feature can be used once per {@variantrule long rest|xphb}. You can use it again by spending 6 sorcery points."
+			]
+		},
+		{
+			"name": "Umbral Wave",
+			"source": "FotS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Shaded Soul",
+			"subclassSource": "FotS",
+			"level": 18,
+			"entries": [
+				"You gain immunity to psychic damage.",
+				"While in dim light or darkness, you can take the {@action Hide|xphb} action even if you are only lightly obscured.",
+				"As an action, you can spend 5 sorcery points to unleash a wave of shadow in a 30-foot cone. Creatures of your choice in the area must make an Intelligence saving throw against your spell save DC.",
+				"On a failed save:",
+				{
+					"type": "list",
+					"items": [
+						"The creature is {@condition blinded} until the end of your next turn.",
+						"Until that blindness ends, once per turn when you move at least 10 feet, you can teleport to an unoccupied space within 5 feet of one creature {@condition blinded} by this feature."
+					]
+				},
+				"On a successful save:",
+				{
+					"type": "list",
+					"items": [
+						"The creature is not {@condition blinded} but has {@variantrule disadvantage|xphb} on the next attack roll it makes before the end of its next turn."
+					]
+				},
+				"You can use this feature once per {@variantrule long rest|xphb}. You can use it again by spending 6 sorcery points."
+			]
+		}
+	],
 	"item": [
 		{
 			"name": "Miner's Tools",
