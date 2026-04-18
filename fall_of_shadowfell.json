@@ -40,6 +40,32 @@
 				"Mislead",
 				"Mental Prison|XGE"
 			]
+		},
+		{
+			"name": "The Ventriloquist",
+			"shortName": "Ventriloquist",
+			"source": "FotS",
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"subclassFeatures": [
+				"Deadly Trickster|Puppeteer|FotS|Ventriloquist|FotS|3",
+				"Charming Voice|Puppeteer|FotS|Ventriloquist|FotS|7",
+				"Illusory Mimicry|Puppeteer|FotS|Ventriloquist|FotS|11",
+				"Artisan Killer|Puppeteer|FotS|Ventriloquist|FotS|17"
+			]
+		},
+		{
+			"name": "The Dollmaker",
+			"shortName": "Dollmaker",
+			"source": "FotS",
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"subclassFeatures": [
+				"Puppet Ledgerdomain|Puppeteer|FotS|Dollmaker|FotS|3",
+				"Raggedy Doll|Puppeteer|FotS|Dollmaker|FotS|7",
+				"Death Marionette|Puppeteer|FotS|Dollmaker|FotS|11",
+				"Sewn Chaos|Puppeteer|FotS|Dollmaker|FotS|17"
+			]
 		}
 	],
 	"subclassFeature": [
@@ -223,6 +249,110 @@
 					]
 				},
 				"You can use this feature once per {@variantrule long rest|xphb}. You can use it again by spending 6 sorcery points."
+			]
+		},
+		{
+			"name": "Deadly Trickster",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"subclassShortName": "Ventriloquist",
+			"subclassSource": "FotS",
+			"level": 3,
+			"entries": [
+				"Starting at 3rd level, you gain advantage in Performance and Deception checks. Additionally, as an action, you can cast Disguise Self on a Puppet and speak or act through it. When you cast Disguise Self with this ability, you can create a perfect copy of a person that you have seen and studied for at least 1 minute. The Puppet imitates the voice and physical behaviors of that person perfectly. While disguised in this way, the puppet gains advantage on all checks made to influence an ally of the person they are imitating."
+			]
+		},
+		{
+			"name": "Charming Voice",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"subclassShortName": "Ventriloquist",
+			"subclassSource": "FotS",
+			"level": 7,
+			"entries": [
+				"Starting at 7th level, your puppet can attempt to charm a creature that can hear it and is within 60ft of the puppet. Only one creature can be targeted by a puppet at a time. The target must pass a Charisma saving throw or be charmed for 1 minute. While charmed in this way, the creature is friendly to you, your puppets, and your allies. While charmed in this way, they can follow basic commands, such as 'Go over there' or 'Attack that creature.' They are not, however, hostile to their allies. Any order that would inflict harm on the creature's allies or itself causes the effect of Charming Voice to immediately end. While the puppet is disguised as an ally of the target due to the effects of Deadly Trickster, they make the saving throw at disadvantage."
+			]
+		},
+		{
+			"name": "Illusory Mimicry",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"subclassShortName": "Ventriloquist",
+			"subclassSource": "FotS",
+			"level": 11,
+			"entries": [
+				"Beginning at 11th level, when a creature makes an attack roll against you, as a natural reaction to danger, you can dissipate an illusory duplicate of yourself by expending one of your spell slots. The attack automatically misses, as if you were never there. Once you use this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Artisan Killer",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"subclassShortName": "Ventriloquist",
+			"subclassSource": "FotS",
+			"level": 17,
+			"entries": [
+				"Starting at 17th level, a Puppet under the effects of Deadly Trickster may attack twice per round while it is disguised. When attacking from a disguised or in a hidden position in this form, the puppet can make both attacks before being revealed. It gains advantage on the attack roll and does bonus damage equal to your Charisma modifier. The illusion ends for a creature when a puppet attacks it, though it does not end for other creatures unless they pass a successful Intelligence (Investigation) check against your spell save DC. If a creature sees the puppet attack one of its allies while in its disguised form, it gains advantage on the check."
+			]
+		},
+		{
+			"name": "Puppet Ledgerdomain",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"subclassShortName": "Dollmaker",
+			"subclassSource": "FotS",
+			"level": 3,
+			"entries": [
+				"Starting at 3rd level, you can temporarily dismiss your Puppets from the world. They disappear into a pocket dimension where they await your summon. As an action, while they are temporarily dismissed, you can cause them to re-appear in any unoccupied space within 30 feet of you, with the effects of Dying Effigy."
+			]
+		},
+		{
+			"name": "Raggedy Doll",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"subclassShortName": "Dollmaker",
+			"subclassSource": "FotS",
+			"level": 7,
+			"entries": [
+				"Starting at 7th level, your puppets count as one size larger when determining their carrying capacity and the weight they can push, drag, or lift. When they take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total."
+			]
+		},
+		{
+			"name": "Death Marionette",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"subclassShortName": "Dollmaker",
+			"subclassSource": "FotS",
+			"level": 11,
+			"entries": [
+				"Starting at 11th level, your Puppets can move stealthily at a normal pace. They have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit they score against a creature that is surprised is a critical hit."
+			]
+		},
+		{
+			"name": "Sewn Chaos",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"subclassShortName": "Dollmaker",
+			"subclassSource": "FotS",
+			"level": 17,
+			"entries": [
+				"At 17th level, your Puppets gain the ability to distract your enemies. As a bonus action on your turn, you can designate a creature within 10 feet of your puppet. Doing so grants allies advantage on attack rolls against that target. The first time a creature is hit with this effect, it must pass an Intelligence saving throw against your spell save DC or be Surprised until the end of its next turn. When the enemy is Surprised in this way, any hit scored against them is a critical hit. When you use this feature, the puppet cannot move nor act, and can only serve as a distraction."
 			]
 		}
 	],
@@ -1713,6 +1843,605 @@
 						"You learn the {@spell Thaumaturgy} cantrip. When you cast it, the sensory effects manifest as shadowy distortions (e.g., dimming lights, whispered echoes)."
 					]
 				}
+			]
+		}
+	],
+	"class": [
+		{
+			"name": "Puppeteer",
+			"source": "FotS",
+			"page": 1,
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"dex",
+				"cha"
+			],
+			"spellcastingAbility": "cha",
+			"casterProgression": "1/2",
+			"startingProficiencies": {
+				"armor": [
+					"light"
+				],
+				"weapons": [
+					"simple",
+					"martial weapons that have the finesse or light property"
+				],
+				"tools": [
+					"tinker's tools"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"arcana",
+								"deception",
+								"insight",
+								"intimidation",
+								"performance",
+								"persuasion",
+								"sleight of hand"
+							],
+							"count": 3
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) A weapon with the Finesse property or (b) Any simple weapon or (c) Any crossbow",
+					"Child's Marionette Doll",
+					"A Necromancer's Journal to Puppet Crafting",
+					"Leather Armor",
+					"(a) Explorer's Pack or (b) Entertainer's Pack"
+				]
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"CR Limit"
+					],
+					"rows": [
+						[
+							"1/4"
+						],
+						[
+							"1/2"
+						],
+						[
+							"1/2"
+						],
+						[
+							"1"
+						],
+						[
+							"1"
+						],
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"3"
+						],
+						[
+							"3"
+						],
+						[
+							"3"
+						],
+						[
+							"4"
+						],
+						[
+							"4"
+						],
+						[
+							"4"
+						],
+						[
+							"5"
+						],
+						[
+							"5"
+						],
+						[
+							"5"
+						],
+						[
+							"6"
+						],
+						[
+							"6"
+						],
+						[
+							"7"
+						],
+						[
+							"8"
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1}",
+						"{@filter 2nd|spells|level=2}",
+						"{@filter 3rd|spells|level=3}",
+						"{@filter 4th|spells|level=4}",
+						"{@filter 5th|spells|level=5}"
+					],
+					"rows": [
+						[
+							"—",
+							"—",
+							"—",
+							"—",
+							"—"
+						],
+						[
+							"2",
+							"—",
+							"—",
+							"—",
+							"—"
+						],
+						[
+							"3",
+							"—",
+							"—",
+							"—",
+							"—"
+						],
+						[
+							"3",
+							"—",
+							"—",
+							"—",
+							"—"
+						],
+						[
+							"4",
+							"2",
+							"—",
+							"—",
+							"—"
+						],
+						[
+							"4",
+							"2",
+							"—",
+							"—",
+							"—"
+						],
+						[
+							"4",
+							"3",
+							"—",
+							"—",
+							"—"
+						],
+						[
+							"4",
+							"3",
+							"—",
+							"—",
+							"—"
+						],
+						[
+							"4",
+							"3",
+							"2",
+							"—",
+							"—"
+						],
+						[
+							"4",
+							"3",
+							"2",
+							"—",
+							"—"
+						],
+						[
+							"4",
+							"3",
+							"3",
+							"—",
+							"—"
+						],
+						[
+							"4",
+							"3",
+							"3",
+							"—",
+							"—"
+						],
+						[
+							"4",
+							"3",
+							"3",
+							"1",
+							"—"
+						],
+						[
+							"4",
+							"3",
+							"3",
+							"1",
+							"—"
+						],
+						[
+							"4",
+							"3",
+							"3",
+							"2",
+							"—"
+						],
+						[
+							"4",
+							"3",
+							"3",
+							"2",
+							"—"
+						],
+						[
+							"4",
+							"3",
+							"3",
+							"3",
+							"1"
+						],
+						[
+							"4",
+							"3",
+							"3",
+							"3",
+							"1"
+						],
+						[
+							"4",
+							"3",
+							"3",
+							"3",
+							"2"
+						],
+						[
+							"4",
+							"3",
+							"3",
+							"3",
+							"2"
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Personal Puppet|Puppeteer|FotS|1",
+				"Psychic Strings|Puppeteer|FotS|1",
+				"Command Puppet|Puppeteer|FotS|1",
+				"Dying Effigy|Puppeteer|FotS|1",
+				"Soul Harvest|Puppeteer|FotS|2",
+				"Spellcasting|Puppeteer|FotS|2",
+				"Art of Puppetry|Puppeteer|FotS|3",
+				"Ability Score Improvement|Puppeteer|FotS|4",
+				"Extra Attack|Puppeteer|FotS|5",
+				"Weaken Will|Puppeteer|FotS|6",
+				"Charming Continuance|Puppeteer|FotS|7",
+				"Ability Score Improvement|Puppeteer|FotS|8",
+				"Hades' Blessing|Puppeteer|FotS|9",
+				"Razor Strings|Puppeteer|FotS|10",
+				"Ability Score Improvement|Puppeteer|FotS|12",
+				"Contingency|Puppeteer|FotS|13",
+				"Parasitic Strings|Puppeteer|FotS|14",
+				"Tied Lives|Puppeteer|FotS|15",
+				"Ability Score Improvement|Puppeteer|FotS|16",
+				"Snapped|Puppeteer|FotS|18",
+				"Underworld's Fury|Puppeteer|FotS|18",
+				"Follow the Horde|Puppeteer|FotS|19",
+				"Ability Score Improvement|Puppeteer|FotS|19",
+				"Unhinged Souls|Puppeteer|FotS|20"
+			],
+			"subclassTitle": "Art of Puppetry"
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Personal Puppet",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 1,
+			"entries": [
+				"You can possess two puppets at any given time. At 7th level, you can hold up to three, and at 15th level you can hold up to four. You can create or raise a puppet that has a CR equal to or less than your CR Limit. Furthermore, the total CR of all puppets added together must be equal to or less than your CR Limit.",
+				"When you select this class, you begin with a Child's Marionette Doll, which acts as your personal puppet. It may be any one of the five puppet options. This puppet, as well as all puppets you control or create, have the following traits:",
+				{
+					"type": "list",
+					"items": [
+						"Its type is Construct.",
+						"Its size is Small.",
+						"It has immunity to poison damage and the poisoned condition.",
+						"It has Darkvision out to a range of 60ft.",
+						"It can speak in your voice, or in a monotone, in languages you know.",
+						"It shares your initiative and goes directly after you.",
+						"Once given an order, the Puppet continues to follow it until its task is complete.",
+						"It adds your proficiency bonus to their attack rolls and saving throws, and use your Spell Save DC.",
+						"If you are incapacitated, absent, or your psychic string breaks, the puppet is unable to act on its own. You may use your reaction upon the string breaking to reestablish a connection with them or choose to do so action on your turn.",
+						"It doesn't need to sleep and doesn't suffer the effects of exhaustion due to lack of rest, and magic can't put it to sleep."
+					]
+				},
+				"Starting at 5th level, this puppet, as well as all other puppets you create or take control over, adds half your proficiency bonus (rounded down) to their damage rolls. At 10th level, your puppets add your full proficiency bonus to your damage rolls.",
+				"Puppets you create have a number of hit die equal to your Puppeteer level, and you add your proficiency bonus to each of their stats.",
+				"You may create more puppets to serve you or repair puppets currently under your service. In order to create a puppet, you must make a DC 12 Dexterity (Sleight of Hand) check with a set of either: Tinker's tools, Leatherworker's tools, or Weaver's tools. It takes 10 minutes to create a puppet.",
+				"Not only can you imbue creatures with the foul mimicry of life, but you may also attempt to bring back those who have fallen. As an action, you can force the dead creature's spirit to roll a Charisma saving throw against your DC. If it fails, it becomes your puppet after 7 - your proficiency bonus amount of rounds of reanimating itself."
+			]
+		},
+		{
+			"name": "Psychic Strings",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 1,
+			"entries": [
+				"Thin psychic strings shoot forth from your outstretched fingertips, allowing you to control your puppets while they are within a number of feet equal to 30 times your Puppeteer level. If a puppet exceeds this range, they become inactive until you are within range, at which point your psychic strings reconnect with the puppet (no action required)."
+			]
+		},
+		{
+			"name": "Command Puppet",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 1,
+			"entries": [
+				"On each of your turns, you can telepathically command any Puppet you make or take control over with this feature within 60 feet of you (if you control multiple Puppets, you can command any or all of them at the same time, issuing the same or different commands to each one). You may control one puppet when you select this class. The number of puppets you can control at one time increases to two at level 5, three at level 10, and four at level 15.",
+				"Puppets under your control obey your commands to the best of their ability. You may fiddle with their strings, controlling them. Doing so allows you to choose the life-sized Puppet's actions and bonus actions."
+			]
+		},
+		{
+			"name": "Dying Effigy",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 1,
+			"entries": [
+				"You learn to pull the threads of magic laced in the puppet to bring it forward and take blows for you. When you would take damage, you can use your reaction to have a puppet take the damage instead if it is within 60 feet of you and line of sight. The puppet then appears in an unoccupied space within 5ft of you. This ability can be used a number of times equal to Charisma modifier."
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 2,
+			"entries": [
+				"The Puppeteer Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.",
+				"{@b Prepared Spells of Level 1+.} You prepare the list of level 1+ spells that are available for you, choosing from the Bard spell list. To start, choose two level 1 Bard spells. The number of spells on your list increases as you gain Puppeteer levels.",
+				"{@b Spellcasting Ability.} Charisma is your spellcasting ability for your Puppeteer spells.",
+				"{@b Spellcasting Focus.} You can use an animate puppet as a Spellcasting Focus for your Puppeteer spells."
+			]
+		},
+		{
+			"name": "Soul Harvest",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you gain the ability to reap life energy from creatures you or your puppet's kill. Once per turn when you or your puppets kill one or more creatures with a spell of 1st level or higher, you regain hit points equal to twice the spell's level, or three times its level if the spell belongs to the School of Necromancy. You don't gain this benefit for killing constructs or undead."
+			]
+		},
+		{
+			"name": "Art of Puppetry",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 3,
+			"entries": [
+				"Beginning at 3rd level, Puppeteers begin to study their craft extensively, bringing forth various Arts of Puppetry. They offer the practitioner the one thing that binds their craft together. You learn an Art of Puppetry feature at 3rd, 6th, 8th & 17th levels."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 8,
+			"entries": [
+				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 12,
+			"entries": [
+				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 16,
+			"entries": [
+				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 19,
+			"entries": [
+				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 5,
+			"entries": [
+				"Starting at 5th level, you can attack twice, rather than once, whenever you take the Attack action on your turn. Your puppets also gain this feature, though it does not stack with existing Extra Attack or Multi Attack features."
+			]
+		},
+		{
+			"name": "Weaken Will",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 6,
+			"entries": [
+				"Starting at 6th level, when you attempt to bring a creature back to life, it has disadvantage on its saving throw."
+			]
+		},
+		{
+			"name": "Charming Continuance",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 7,
+			"entries": [
+				"Starting at 7th level, if damage reduces a puppet to 0 hit points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, the puppet drops to 1 hit point instead. Furthermore, puppets add your Charisma modifier to their death saving throws."
+			]
+		},
+		{
+			"name": "Hades' Blessing",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 9,
+			"entries": [
+				"Starting at 9th both you and your puppets add your Charisma modifier to initiative rolls. Furthermore, you and your puppets attacks become magical for the purpose of overcoming damage resistances and immunity."
+			]
+		},
+		{
+			"name": "Razor Strings",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 10,
+			"entries": [
+				"Starting at 10th level, you can now create incredibly sharp strings designed for slowing down and injuring your enemies. These strings act as both a hazard and difficult terrain. Creatures you designate to see the string can avoid its effects, thought the area occupied by your strings still count as difficult terrain for them. Any creature unaware of these strings must pass a Constitution saving throw against your Spell Save DC when it enters a space they occupy or take damage equal to your level. A creature repeats this saving throw each time it enters a new 5ft space your Razor Strings occupy, though it makes both Perception checks to perceive the string and Constitution savings throws to avoid taking damage at advantage.",
+				"These strings last for 1 hour, until destroyed, or until you dismiss them (no action required). You can use this feature a number of times equal to your proficiency bonus, and regain all uses on a long rest."
+			]
+		},
+		{
+			"name": "Contingency",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 13,
+			"entries": [
+				"Starting at 13th level, your dealings with the underworld has further fueled you and your puppets' powers. Both you and your puppets are immune to disease, gain resistance to necrotic damage, and your hit point maximums cannot be reduced."
+			]
+		},
+		{
+			"name": "Parasitic Strings",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 14,
+			"entries": [
+				"Starting at 14th level, you can make a ranged spell attack against one Large or smaller creature within 120ft of you that you can see. On a hit, a string is attached to that creature, and it then becomes your puppet. While this creature is your puppet, you control its actions. At the beginning of each of its turns, it must make a Charisma saving throw against your DC. On a success, the creature breaks free from your grasp. This spell ends after a Charisma modifier amount of rounds. This ability can be used only once every 24 hours on the same creature. You may use this ability three times per long rest. You regain one use on short rest, and all uses on a long rest."
+			]
+		},
+		{
+			"name": "Tied Lives",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 15,
+			"entries": [
+				"Starting at 15th level, as an action, you may attach a string between two creatures or one object and one creature within 120ft of you that you can see. You may target yourself with this ability. This string remains for 1 minute, until it is destroyed, or you dismiss them (no action required).",
+				"While this string attached, you gain access to bonus actions such as Energy Flow, Shared Vitality, Hook, Line, and Anchor, and Pain Slit (refer to full class description for specifics). You may use this feature twice before needing a long rest."
+			]
+		},
+		{
+			"name": "Snapped",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 18,
+			"entries": [
+				"Starting at 18th level, as an action, you can force a puppet to lose one fifth of its maximum hit points and cause an effect to occur, based on the model (Duelist, Magic Attacker, Puppet of All Trades, First Aid Puppet, or Broken Puppet). This feature can be used twice per long rest."
+			]
+		},
+		{
+			"name": "Underworld's Fury",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 18,
+			"entries": [
+				"Starting at 18th level, as an action, you can choose one creature you raised from death to lose one-fifth of its maximum hit points and gain the following benefits: Fire immunity for 1 minute, advantage on all conditions for 1 minute, and the benefit of the Haste spell, no Concentration required, for 1 minute. A puppet whose hit point maximum is reduced in this way can only recover them on a long rest. This feature can be used twice per long rest."
+			]
+		},
+		{
+			"name": "Follow the Horde",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 19,
+			"entries": [
+				"Starting at 19th level, your puppets are able to help expand your legion. As an action on their turn, they can designate any creature it can see within 30ft of itself to make a Constitution saving throw. On a fail, the creature is beguiled by the dark, infectious energy seeping from the puppet, and is charmed for one minute. While charmed in this way, it is under the effects of Dominate Monster. This effect requires both you and the puppet to concentrate on it and ends if either of you breaks your concentration. You can only have one creature under this effect at one time."
+			]
+		},
+		{
+			"name": "Unhinged Souls",
+			"source": "FotS",
+			"page": 1,
+			"className": "Puppeteer",
+			"classSource": "FotS",
+			"level": 20,
+			"entries": [
+				"At 20th level, as an action, you are able to release control of your puppets for a brief moment of time. When you do so, the following effects occur: The puppet's hit point maximum permanently decreases to half its current maximum. Each puppet is treated with the effects of Dispel Magic and Counterspell as a 9th level spell. Each puppet gains resistance to all damage and immunity to all conditions, and Magic Resistance.",
+				"Each puppet can take a second action, gains a bonus to AC equal to your charisma modifier, and gains a bonus to speed equal to your current speed. Puppets cannot concentrate during this time and attack the closest thing in the vicinity to itself, including you.",
+				"As part of this action, you may draw a 5ft circle in a location you can see. A puppet under the effects of Unhinged will not attack a creature within the space. This effect lasts for 1d4 + 1 rounds, and puppets cannot act for the same amount of turns afterward.",
+				"Additionally, you may cast Magic Jar and Soul Cage once each per long rest. This feature can be used once per long rest."
 			]
 		}
 	]
