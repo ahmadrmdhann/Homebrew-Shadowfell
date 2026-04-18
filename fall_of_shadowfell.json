@@ -1971,11 +1971,11 @@
 				{
 					"title": "Spell Slots per Spell Level",
 					"colLabels": [
-						"{@filter 1st|spells|level=1}",
-						"{@filter 2nd|spells|level=2}",
-						"{@filter 3rd|spells|level=3}",
-						"{@filter 4th|spells|level=4}",
-						"{@filter 5th|spells|level=5}"
+						"{@filter 1st|spells|level=1|class=Bard}",
+						"{@filter 2nd|spells|level=2|class=Bard}",
+						"{@filter 3rd|spells|level=3|class=Bard}",
+						"{@filter 4th|spells|level=4|class=Bard}",
+						"{@filter 5th|spells|level=5|class=Bard}"
 					],
 					"rows": [
 						[
